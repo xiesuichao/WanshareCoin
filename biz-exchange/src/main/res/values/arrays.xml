@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exchange_vp_titles">
+        <item>@string/exchange_turnover</item>
+        <item>@string/exchange_hot_amount</item>
+    </array>
+</resources>

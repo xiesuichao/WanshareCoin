@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/cl_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:background="@color/color_white">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="70dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:toolbarId="@+id/toolbar">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp_banner"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="44dp"
+                android:clipToPadding="false"
+                android:overScrollMode="never"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:layout_scrollFlags="scroll"/>
+
+            <com.wanshare.wscomponent.toolbar.MyToolbar
+                android:id="@+id/my_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                app:layout_collapseMode="pin"
+                app:toolbarBackBtnVisible="false"
+                app:toolbarBackgroundColor="@color/color_white"
+                app:toolbarRightBtnDrawable="@drawable/common_search_selector"
+                app:toolbarRightBtnTextColor="@color/color_gray_dark2"
+                app:toolbarRightBtnTextSize="@dimen/font_size_15"
+                app:toolbarTitle="@string/exchange_everybody"
+                app:toolbarTitleColor="@color/color_gray_dark2"
+                app:toolbarTitleSize="@dimen/font_size_17"/>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+        <com.wanshare.common.widget.viewpager.ViewPagerIndicator
+            android:id="@+id/vpi_type"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_gravity="bottom"
+            android:background="@color/color_white"
+            app:indicatorColor="@color/color_main_light"
+            app:indicatorHeight="2dp"
+            app:indicatorWidth="30dp"
+            app:nomalTextColor="@color/color_gray_dark"
+            app:selectedTextColor="@color/color_main_light"
+            app:tabTextSize="@dimen/font_size_15"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_exchange"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+</android.support.design.widget.CoordinatorLayout>

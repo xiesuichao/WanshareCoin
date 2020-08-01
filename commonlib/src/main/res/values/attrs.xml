@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpringView">
+        <attr name="type">
+            <enum name="overlap" value="0"/>
+            <enum name="follow" value="1"/>
+        </attr>
+        <attr name="give">
+            <enum name="both" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="none" value="3"/>
+        </attr>
+        <attr name="header" format="reference"/>
+        <attr name="footer" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="round_border_color" format="color" />
+        <attr name="round_border_width" format="dimension" />
+        <attr name="round_press_alpha" format="integer" />
+        <attr name="round_press_color" format="color" />
+        <attr name="round_radius" format="dimension" />
+        <attr name="round_shape_type" format="enum">
+            <enum name="none" value="0" />
+            <enum name="round" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ClearAbleEditText">
+        <attr name="android:text"/>
+        <attr name="android:hint"/>
+        <attr name="android:inputType"/>
+        <attr name="android:enabled"/>
+        <attr name="android:drawableRight"/>
+        <attr name="android:background"/>
+        <attr name="android:digits"/>
+        <attr name="android:maxLength"/>
+        <attr name="android:textColorHint"/>
+        <attr name="textPaddingLeft" format="dimension"/>
+        <attr name="textPaddingRight" format="dimension"/>
+        <attr name="textPaddingTop" format="dimension"/>
+        <attr name="textPaddingBottom" format="dimension"/>
+        <attr name="textPadding" format="dimension"/>
+        <attr name="inputName" format="boolean"/>
+        <attr name="eye_pwd" format="boolean"/>
+        <attr name="underline_visible" format="boolean"/>
+        <attr name="underline_bg" format="reference"/>
+    </declare-styleable>
+
+    <!--CircleImageView-->
+    <declare-styleable name="CircleImageView">
+        <attr name="press_alpha" format="integer" />
+        <attr name="press_color" format="color" />
+        <attr name="radius" format="dimension"/>
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color"/>
+        <attr name="shape_type" format="enum">
+            <enum name="round" value="0"/>
+            <enum name="rectangle" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomTabLayout">
+        <attr name="ctlTextSize" format="integer"/>
+        <attr name="ctlTextColor" format="color"/>
+        <attr name="ctlTvBackground" format="color"/>
+        <attr name="ctlTextStyle" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+        </attr>
+        <attr name="ctlUnderlineWidth" format="integer"/>
+        <attr name="ctlUnderlineHeight" format="integer"/>
+        <attr name="ctlUnderlineColor" format="color"/>
+        <attr name="ctlCheckedTextColor" format="color"/>
+        <attr name="ctlUnderlineDuration" format="integer"/>
+        <attr name="ctlHorizontalSpace" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="tabTextSize" format="dimension"/>
+        <attr name="nomalTextColor" format="color"/>
+        <attr name="selectedTextColor" format="color"/>
+        <attr name="indicatorColor" format="color"/>
+        <attr name="indicatorHeight" format="dimension"/>
+        <attr name="indicatorWidth" format="dimension"/>
+        <attr name="indicatorPaddingBottom" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="WheelPicker">
+        <attr name="wheel_data" format="reference" />
+        <attr name="wheel_selected_item_position" format="integer" />
+        <attr name="wheel_item_text_size" format="dimension" />
+        <attr name="wheel_item_text_color" format="color" />
+        <attr name="wheel_selected_item_text_color" format="color" />
+        <attr name="wheel_same_width" format="boolean" />
+        <attr name="wheel_maximum_width_text" format="string" />
+        <attr name="wheel_maximum_width_text_position" format="integer" />
+        <attr name="wheel_visible_item_count" format="integer" />
+        <attr name="wheel_item_space" format="dimension" />
+        <attr name="wheel_cyclic" format="boolean" />
+        <attr name="wheel_indicator" format="boolean" />
+        <attr name="wheel_indicator_color" format="color" />
+        <attr name="wheel_indicator_size" format="dimension" />
+        <attr name="wheel_curtain" format="boolean" />
+        <attr name="wheel_curtain_color" format="color" />
+        <attr name="wheel_atmospheric" format="boolean" />
+        <attr name="wheel_curved" format="boolean" />
+        <attr name="wheel_selected_item_text_size" format="dimension" />
+        <attr name="wheel_item_align" format="enum">
+            <enum name="center" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="wheel_font_path" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="pickerview">
+        <attr name="wheelview_gravity">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr>
+        <attr name="wheelview_textSize" format="dimension"/>
+        <attr name="wheelview_textColorOut" format="color"/>
+        <attr name="wheelview_textColorCenter" format="color"/>
+        <attr name="wheelview_dividerColor" format="color"/>
+        <attr name="wheelview_lineSpacingMultiplier" format="float"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="AroundProgressBar">
+        <attr name="textSize" format="dimension"/>
+        <attr name="loadingColor" format="color"/>
+        <attr name="stopColor" format="color"/>
+        <attr name="around_radius" format="dimension"/>
+        <attr name="borderWidth" format="dimension"/>
+    </declare-styleable>
+
+</resources>

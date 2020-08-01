@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_root_container"
+    android:background="@color/color_white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.wanshare.wscomponent.toolbar.MyToolbar
+        android:id="@+id/tb_market_current_title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        app:toolbarTitle="@string/market_order_current_title"
+        app:toolbarTitleSize="17sp"
+        app:toolbarBackBtnVisible="false"
+        app:toolbarBackgroundColor="@color/color_white"
+        app:toolbarRightBtnDrawable="@drawable/ic_lswt_sel"
+        app:toolbarTitleColor="@color/color_gray_dark2"
+        app:toolbarTitleTextStyle="bold">
+
+    </com.wanshare.wscomponent.toolbar.MyToolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rl_market_current_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_gray_light">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

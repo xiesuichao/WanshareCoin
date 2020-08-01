@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">biz-market</string>
+    <string name="market_order_current_title">当前委托</string>
+    <string name="market_order_history_title">历史委托</string>
+    <string name="market_order_history_done">已成交</string>
+    <string name="market_order_history_cancelled">已撤单</string>
+    <string name="market_order_time">时间</string>
+    <string name="market_order_price">均价/价格</string>
+    <string name="market_order_type">类型/时间</string>
+    <string name="market_order_valume">成交/委托量</string>
+    <string name="market_order_currentprice">委托价</string>
+    <string name="market_order_start_time">起始日期</string>
+    <string name="market_order_stop_time">截止日期</string>
+    <string name="market_order_trade_coins">交易币对</string>
+    <string name="market_order_select_currency">选择币种  /  选择市场 </string>
+    <string name="market_order_trade_type">类型</string>
+    <string name="market_order_trade_buy">买入</string>
+    <string name="market_order_trade_sell">卖出</string>
+    <string name="market_order_reset">重置</string>
+    <string name="market_order_search">搜索</string>
+    <string name="market_order_buy_space">买&#160;&#160;入</string>
+    <string name="market_order_sell_space">卖&#160;&#160;出</string>
+
+
+    <!--行情-->
+    <string name="market_trade_quotes">行情</string>
+    <string name="market_trade_title">BTC/USDT</string>
+    <string name="market_trade_price">价格</string>
+    <string name="market_trade_number">数量</string>
+    <string name="market_trade_buy">买入</string>
+    <string name="market_trade_sell">卖出</string>
+    <string name="market_trade_limit_order">限价单</string>
+    <string name="market_trade_available">可用 %1$s %2$s</string>
+    <string name="market_trade_cny">≈%1$s CNY</string>
+    <string name="market_trade_available_no">可用</string>
+    <string name="market_trade_transaction_amount">交易额</string>
+    <string name="market_trade_operation">操作</string>
+    <string name="market_trade_transaction">交易</string>
+    <string name="market_trade_usdt">%1$s USDT</string>
+    <string name="market_trade_limit_price_buy">限价买入</string>
+    <string name="market_trade_limit_price_sell">限价卖出</string>
+    <string name="market_trade_cancel">撤销</string>
+    <string name="market_trade_getting_balance">正在获取余额...</string>
+    <string name="market_trade_not_get_balance">未获取到余额...</string>
+    <string name="market_trade_deal_count">成交量</string>
+    <string name="market_trade_max_price">最 高</string>
+    <string name="market_trade_min_price">最 低</string>
+    <string name="market_buy">买</string>
+    <string name="market_sell">卖</string>
+    <string name="market_buy_order_sum">买盘量</string>
+    <string name="market_sell_order_sum">卖盘量</string>
+    <string name="market_deal_time">成交时间</string>
+    <string name="market_order_buy_files">买入档</string>
+    <string name="market_order_sell_files">卖出档</string>
+    <string name="market_order_all">全部</string>
+    <string name="market_order_cancel">取消</string>
+    <string name="market_order_complete">完成</string>
+    <string name="market_order_login">登录</string>
+    <string name="market_order_input_price">请输入价格</string>
+    <string name="market_order_input_number">请输入数量</string>
+    <string name="market_order_confirm_cancel">确认撤销当前委托？</string>
+    <string name="market_order_confirm_tips">提示</string>
+
+    <string name="market_high">高</string>
+    <string name="market_low">低</string>
+    <string name="market_depth_price">价格(%s):%s</string>
+    <string name="market_depth_vol">累积交易量:%s</string>
+    <string-array name="market_condition_period_tabs">
+        <item>1分|1m</item>
+        <item>5分|5m</item>
+        <item>15分|15m</item>
+        <item>30分|30m</item>
+        <item>1小时|1h</item>
+        <item>2小时|2h</item>
+        <item>4小时|4h</item>
+        <item>6小时|6h</item>
+        <item>12小时|12h</item>
+        <item>1日|1d</item>
+        <item>3日|3d</item>
+        <item>1周|1w</item>
+    </string-array>
+
+    <string-array name="market_condition_bottom_tabs">
+        <item>深度</item>
+        <item>委盘</item>
+        <item>成交</item>
+    </string-array>
+</resources>

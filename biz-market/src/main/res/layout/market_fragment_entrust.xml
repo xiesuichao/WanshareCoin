@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@color/color_gray_light"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/market_buy_order_sum"
+            android:textColor="@color/color_gray_dark1"
+            android:textSize="@dimen/font_size_11"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/market_trade_price"
+            android:textColor="@color/color_gray_dark1"
+            android:textSize="@dimen/font_size_11"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/market_sell_order_sum"
+            android:textColor="@color/color_gray_dark1"
+            android:textSize="@dimen/font_size_11"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            />
+
+    </RelativeLayout>
+
+    <com.wanshare.common.widget.NoScrollListView
+        android:id="@+id/lv_deal_detail_discretion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:overScrollMode="never"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="7.5dp"
+        android:layout_marginBottom="15dp"
+        android:scrollbars="none">
+
+
+    </com.wanshare.common.widget.NoScrollListView>
+
+</LinearLayout>

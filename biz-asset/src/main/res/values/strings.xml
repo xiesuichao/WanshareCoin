@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">biz-asset</string>
+    <string name="asset_withdraw_address">提币地址</string>
+    <string name="asset_withdraw_address_title">提币地址名称</string>
+    <string name="asset_add_withdraw_address">添加地址</string>
+    <string name="asset_please_select_coin">请选择币种</string>
+    <string name="asset_gallery">相册</string>
+    <string name="asset_take_a_scan">扫一扫</string>
+    <string name="asset_please_input_withdraw_coin_info">请输入完整提币信息</string>
+    <string name="asset_delete_wa_succeed">删除提现地址成功</string>
+    <string name="asset_edit_withdraw_address">编辑地址</string>
+    <string name="asset_alter_withdraw_address_succeed">修改提币地址成功</string>
+    <string name="asset_add_withdraw_address_succeed">新增提币地址成功</string>
+    <string name="asset_not_get_available_withdraw_list">未获取到可提币列表</string>
+    <string name="asset_recharge_record">充币记录</string>
+    <string name="asset_withdraw_record">提币记录</string>
+    <string name="asset_record">财务记录</string>
+    <string name="asset_coin_time">币种/时间</string>
+    <string name="asset_count_state">数量/状态</string>
+    <string name="asset_currency_name">币种名称</string>
+    <string name="asset_recharge">充币</string>
+    <string name="asset_recharge_address">充币地址</string>
+    <string name="asset_current_available">当前可用</string>
+    <string name="asset_current_frozen">当前冻结</string>
+    <string name="asset_copy_recharge_address">复制充币地址</string>
+    <string name="asset_save_qr_code">保存二维码</string>
+    <string name="asset_recharge_explain">充币说明</string>
+    <string name="asset_recharge_explain_detail" formatted="false">1.禁止向%s地址充币除%s之外的资产，任何转入%s地址的非%s资产将不可找回。\n2.使用%s地址充币需要%s个网络确认才能到账。\n3.充币完成后，你可以在历史记录中跟踪进度。</string>
+    <string name="asset_copied_to_clipboard">已复制到剪贴板</string>
+    <string name="asset_save_qr_code_success">二维码保存成功！</string>
+    <string name="asset_withdraw">提币</string>
+    <string name="asset_confirm">确认</string>
+    <string name="asset_input_address">输入地址</string>
+    <string name="asset_save_new_address">保存新地址</string>
+    <string name="asset_min_withdraw_amount" formatted="false">最小提币数量%s</string>
+    <string name="asset_withdraw_all">全部提币</string>
+    <string name="asset_withdraw_balance_of_day">当日可提币额度：</string>
+    <string name="asset_charge">手续费</string>
+    <string name="asset_actual_to_account">实际到账</string>
+    <string name="asset_withdraw_explain">提币说明：</string>
+    <string name="asset_withdraw_explain_body" formatted="false">1.单笔最小提币%s；单笔最大提币%s\n2.为保障资金安全，我们会对提币进行人工审核，请耐心等候</string>
+    <string name="asset_recharge_record_detail">充币明细</string>
+    <string name="asset_withdraw_record_detail">提币明细</string>
+    <string name="asset_type">类型</string>
+    <string name="asset_count">数量</string>
+    <string name="asset_time">时间</string>
+    <string name="asset_status">状态</string>
+    <string name="asset_address">地址</string>
+    <string name="asset_txid">Txid</string>
+    <string name="asset_copy_txid">复制Txid</string>
+    <string name="asset_get_asset_detail_failed">获取资产明细失败</string>
+    <string name="asset_recharge_coin">充币</string>
+    <string name="asset_withdraw_coin">提币</string>
+    <string name="asset_copied_txid_to_clipboard">已复制Txid到剪贴板</string>
+    <string name="asset_select_withdraw_coin">选择提币币种</string>
+    <string name="asset_select_recharge_coin">选择充币币种</string>
+    <string name="asset_remark">备注</string>
+    <string name="asset_number_format_error">数字格式错误</string>
+    <string name="asset_amount_input_tip">请输入提币金额</string>
+    <string name="asset_amount_more_than_tip">超过最大提币限额</string>
+    <string name="asset_amount_less_than_tip">不足最小提币限额</string>
+    <string name="asset_over_daily_amount">超过当日最大提币限额</string>
+    <string name="asset_more_than_balance">余额不足</string>
+    <string name="asset_coin">币种</string>
+    <string name="asset_commit">提交</string>
+    <string name="asset_fund_pwd_input">请输入资金密码</string>
+    <string name="asset_password">密码</string>
+    <string name="asset_trade_password_length_error">资金密码最少8位</string>
+    <string name="asset_withdraw_success">提币成功</string>
+
+    <!--总资产-->
+    <string name="asset_total_assets">总资产</string>
+    <string name="asset_financial_record">财务记录</string>
+    <string name="asset_total_assets_valued_btc">总资产估值 (BTC)</string>
+    <string name="asset_available">可用</string>
+    <string name="asset_frozen">冻结</string>
+    <string name="asset_format_bracket" formatted="false">(%s)</string>
+    <string name="asset_format_approximate_cny" formatted="false">≈￥%s</string>
+
+    <string name="asset_fee">手续费</string>
+    <string name="asset_confirmation_info" formatted="false">(确认次数%d/%d)</string>
+    <string name="asset_delete">删除</string>
+    <string name="asset_submit_time">提交时间</string>
+    <string name="asset_finish_time">完成时间</string>
+</resources>

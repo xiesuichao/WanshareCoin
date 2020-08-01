@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gray_light"
+    android:minWidth="1000dp"
+    android:orientation="vertical">
+
+    <com.wanshare.common.widget.NumberPickerView
+        android:id="@+id/number_picker_view"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/color_white"
+        app:npv_ShowCount="5"
+        app:npv_ShowDivider="false"
+        app:npv_TextColorNormal="@color/color_gray_dark"
+        app:npv_TextColorSelected="@color/color_gray_dark2"
+        app:npv_TextSizeNormal="@dimen/font_size_15"
+        app:npv_TextSizeSelected="@dimen/font_size_15"
+        app:npv_WrapSelectorWheel="true"/>
+
+    <Button
+        android:id="@+id/btnCancel"
+        style="@style/et_center_singleLine_black15"
+        android:layout_marginTop="5dp"
+        android:background="@color/color_white"
+        android:text="@string/cancel"/>
+
+</LinearLayout>

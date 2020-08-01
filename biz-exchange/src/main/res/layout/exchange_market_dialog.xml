@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@android:id/content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <com.wanshare.common.widget.viewpager.ViewPagerIndicator
+        android:id="@+id/vpi_exchange"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@color/color_white"
+        app:indicatorColor="@color/color_main_light"
+        app:indicatorHeight="2dp"
+        app:indicatorWidth="30dp"
+        app:nomalTextColor="@color/black_text"
+        app:selectedTextColor="@color/color_main_light"
+        app:tabTextSize="@dimen/font_size_15"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_gray_light1"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_exchange"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

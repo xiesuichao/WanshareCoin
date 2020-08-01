@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <Button
+        android:text="人人交易所Fragment"
+        android:onClick="onExchangeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onExchange"
+        android:text="交易所"/>
+
+    <Button
+        android:id="@+id/btnMarket"
+        android:text="MarketDialog"
+        android:onClick="onMarketDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnMarket2"
+        android:text="MarketDialog显示方法2"
+        android:onClick="onMarketDialog2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnUpdateMarket"
+        android:text="MarketDialog更新数据"
+        android:onClick="onUpdateMarket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

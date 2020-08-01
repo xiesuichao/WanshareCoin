@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="asset_record_titles">
+        <item>@string/asset_recharge_record</item>
+        <item>@string/asset_withdraw_record</item>
+    </string-array>
+</resources>

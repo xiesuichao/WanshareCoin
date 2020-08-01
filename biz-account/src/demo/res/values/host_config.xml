@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="account_base_url">http://192.168.83.88:8085/v1/</string>
+</resources>
+
+
+
+
+

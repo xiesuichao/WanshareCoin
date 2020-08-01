@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingLeft="0dp">
+
+    <com.wanshare.common.widget.image.CircleImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        tools:src="@drawable/ic_home_btb"
+        android:layout_marginRight="16dp"
+        app:shape_type="round"
+        />
+    
+    <TextView
+        android:id="@+id/tv_short_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_gray_dark2"
+        android:textSize="@dimen/font_size_16"
+        tools:text="BTC" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="("
+        android:textColor="@color/color_gray_dark1"
+        android:textSize="@dimen/font_size_15" />
+
+    <TextView
+        android:id="@+id/tv_fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_gray_dark1"
+        android:textSize="@dimen/font_size_15"
+        tools:text="bitcoin" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=")"
+        android:textColor="@color/color_gray_dark1"
+        android:textSize="@dimen/font_size_15"
+        android:drawableRight="@drawable/ic_zc_tz"
+        android:layout_marginRight="0dp"
+        />
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gray_light"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_system_messages"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_mesg_gonggao" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="@string/setting_system_messages"
+            android:textColor="@color/color_gray_dark2"
+            android:textSize="@dimen/font_size_15" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/color_gray_light1" />
+
+    <LinearLayout
+        android:id="@+id/ll_my_messages"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_mesg_xinxi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="@string/setting_my_messages"
+            android:textColor="@color/color_gray_dark2"
+            android:textSize="@dimen/font_size_15" />
+
+    </LinearLayout>
+</LinearLayout>

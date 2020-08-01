@@ -1,0 +1,34 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wanshare.crush.setting">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <activity
+            android:name=".view.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.LanguageChoseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.ValuationModeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.HelpActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.MessagesCenterActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.MessagesListActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chart_main_color_red">@color/color_red_light</color>
+    <color name="chart_main_color_green">@color/color_green_light</color>
+    <color name="chart_main_text_color">@color/color_gray_dark</color>
+
+    <color name="chart_grid_color">@color/color_gray_light</color>
+
+    <color name="chart_gray_bg">@color/color_gray_light</color>
+    <color name="chart_blue">@color/color_main_light</color>
+    <color name="chart_gray_text_market">@color/color_gray_dark</color>
+    <color name="chart_home_banner_text">@color/color_gray_dark</color>
+    <color name="chart_kline_background">@color/color_white</color>
+
+    <color name="chart_ma5">@color/color_yellow</color>
+    <color name="chart_ma10">@color/color_blue</color>
+    <color name="chart_ma30">@color/color_pink</color>
+
+    <color name="chart_vol">@color/color_gray_dark</color>
+
+    <color name="chart_vol_ma5">@color/chart_ma5</color>
+    <color name="chart_vol_ma10">@color/chart_ma10</color>
+
+    <color name="chart_bottom_color_1">@color/chart_vol</color>
+    <color name="chart_bottom_color_2">@color/chart_ma5</color>
+    <color name="chart_bottom_color_3">@color/chart_ma10</color>
+    <color name="chart_bottom_color_4">@color/chart_ma30</color>
+
+    <!--x轴坐标颜色-->
+    <color name="chart_axis_color">@color/color_gray_dark</color>
+
+    <color name="chart_highlight_color">@color/color_gray_light5</color>
+
+    <!--char_info-->
+    <color name="chart_info_background_color">@color/color_gray_light3</color>
+    <color name="chart_info_background_border_color">@color/color_gray_light</color>
+
+    <color name="chart_text_gray">@color/color_gray_dark</color>
+    <color name="chart_gray_line">@color/color_gray_light3</color>
+    <color name="chart_wheel_indicator_color">@color/color_gray_dark</color>
+
+</resources>

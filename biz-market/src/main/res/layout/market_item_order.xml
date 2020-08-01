@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/color_gray_light"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_market_item_order_deal_state"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="@dimen/font_size_15"
+                android:background="@drawable/common_shape_green_radius3"
+                android:text="买"
+                android:textSize="12sp"
+                android:textColor="@color/color_white"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv__market_item_order_left_coin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:textSize="15sp"
+                android:text="BTC"
+                android:textColor="@color/color_gray_dark2"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tv_market_item_order_right_coin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="/USDT"
+                android:textColor="@color/color_gray_dark"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_market_item_order_exchange"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:text=""
+            android:gravity="center_vertical"
+            />
+        
+        <TextView
+            android:id="@+id/tv_market_item_order_trade_state"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/market_trade_cancel"
+            android:textSize="14sp"
+            android:textColor="@color/color_red_light"
+            android:layout_marginRight="@dimen/font_size_15"
+            android:gravity="center|right"/>
+
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/font_size_15"
+        android:layout_marginRight="@dimen/font_size_15"
+        android:background="@color/color_gray_light1"/>
+
+</LinearLayout>

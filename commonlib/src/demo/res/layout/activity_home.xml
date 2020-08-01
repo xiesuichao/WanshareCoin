@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="9dp"
+            />
+
+        <com.sunfusheng.marqueeview.MarqueeView
+            android:id="@+id/marqueeView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            app:mvTextColor="@color/color_main_dark"
+            app:mvTextSize="12dp"/>
+
+        <TextView
+            android:id="@+id/tvMore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:text="@string/more"
+            android:textColor="#3193ff"
+            android:textSize="12dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</LinearLayout>

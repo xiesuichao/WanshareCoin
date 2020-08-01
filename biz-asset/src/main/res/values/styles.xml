@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="et_singleLine_black15">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">49dp</item>
+        <item name="android:background">@color/color_white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/color_gray_dark2</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:textColorHint">@color/color_gray_light2</item>
+    </style>
+
+    <style name="et_center_singleLine_black15">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">49dp</item>
+        <item name="android:background">@color/color_white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/color_gray_dark2</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:textColorHint">@color/color_gray_light2</item>
+    </style>
+
+    <style name="TransparentDimBgDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/transparent</item><!--背景透明-->
+    </style>
+
+    <style name="TransparentDialog" parent="TransparentDimBgDialog">
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+    </style>
+
+    <style name="asset_tv_withdraw_left_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/color_gray_dark1</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+    </style>
+
+    <style name="asset_tv_withdraw_right_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/color_gray_dark2</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+    </style>
+</resources>

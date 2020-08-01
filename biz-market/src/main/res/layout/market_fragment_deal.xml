@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@color/color_gray_light">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/market_deal_time"
+            android:textColor="@color/color_gray_dark1"
+            android:textSize="@dimen/font_size_11"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/market_trade_price"
+            android:textColor="@color/color_gray_dark1"
+            android:textSize="@dimen/font_size_11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="@string/market_trade_number"
+            android:textColor="@color/color_gray_dark1"
+            android:textSize="@dimen/font_size_11" />
+
+    </RelativeLayout>
+
+    <com.wanshare.common.widget.NoScrollListView
+        android:id="@+id/lv_deal_detail_bargain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:divider="@null"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+
+    </com.wanshare.common.widget.NoScrollListView>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">biz-favorite</string>
+    <string name="favorite_market">市场</string>
+    <string name="favorite_exchange">交易所</string>
+    <string name="favorite_project">项目</string>
+    <string name="favorite_price">价格</string>
+    <string name="favorite_change_24h">24H涨跌</string>
+    <string name="favorite_turnover_24h">24H成交额</string>
+    <string name="favorite_star">星级</string>
+    <string name="favorite_exchange_market">交易所/市场</string>
+    <string name="favorite_certification_body">认证机构</string>
+    <string name="favorite_online_exchange">交易所</string>
+    <string name="favorite_market_manager">市场管理</string>
+    <string name="favorite_exchange_manager">交易所管理</string>
+    <string name="favorite_project_manager">项目管理</string>
+    <string name="favorite_enter_market_name">输入币名称</string>
+    <string name="favorite_enter_exchange_name">输入交易所名称</string>
+    <string name="favorite_enter_project_name">输入项目名称</string>
+    <string name="favorite_add">添加</string>
+    <string name="favorite_manager_info">取消请点击星星,排序请长按拖动</string>
+    <string name="favorite_project_exchange_num">上线交易所</string>
+    <string name="favorite_project_market_value">市值</string>
+    <string name="favorite_project_24h">/24h</string>
+    <string name="favorite_project_amount">成交额</string>
+</resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/color_white"
+    android:id="@+id/srl_project_detail">
+
+    <com.scwang.smartrefresh.layout.header.ClassicsHeader
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.scwang.smartrefresh.layout.header.ClassicsHeader>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="@color/color_white">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                >
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="15dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_project_detail_coin_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="53dp"
+                    android:textColor="@color/color_gray_dark2"
+                    android:textSize="@dimen/font_size_15"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_project_detail_full_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tv_project_detail_coin_name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="@dimen/font_size_12"
+                    android:textColor="@color/color_gray_dark"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/ll_project_publicity_currency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_project_detail_currency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/project_rmb"
+                        android:textColor="@color/color_gray_dark2"
+                        android:textSize="@dimen/font_size_12"
+                        android:layout_centerVertical="true"
+                        android:padding="10dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_my_assets_open"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_project_detail_current_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color_gray_dark"
+
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="bottom">
+
+                <TextView
+                    android:id="@+id/tv_project_detail_coin_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_gray_dark2"
+                    android:textSize="@dimen/font_size_24"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_project_detail_coin_kind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BTC"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="@color/color_gray_dark"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_project_detail_currency_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_gray_dark"
+                android:textSize="@dimen/font_size_12"
+                android:layout_marginTop="12dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/color_gray_light"
+                android:layout_marginTop="15dp"
+                />
+
+            <com.wanshare.common.widget.CustomTabLayout
+                android:id="@+id/ctl_project_detail"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:ctlTextColor="@color/color_gray_dark"
+                app:ctlUnderlineWidth="30"
+                app:ctlUnderlineColor="@color/color_main_light"
+                app:ctlHorizontalSpace="60"
+                >
+
+            </com.wanshare.common.widget.CustomTabLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_gray_light"
+                />
+
+            <com.wanshare.common.widget.NestedViewPager
+                android:id="@+id/vp_project_detail_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never">
+
+            </com.wanshare.common.widget.NestedViewPager>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.scwang.smartrefresh.layout.footer.ClassicsFooter>
+
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>

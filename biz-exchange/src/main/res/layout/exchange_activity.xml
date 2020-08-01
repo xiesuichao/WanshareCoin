@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@color/color_white"
+    tools:context=".view.ExchangeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <com.wanshare.wscomponent.toolbar.MyToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:toolbarBackgroundColor="@color/color_white"
+            app:toolbarRightBtnTextColor="@color/color_gray_dark2"
+            app:toolbarRightBtnTextSize="@dimen/font_size_15"
+            app:toolbarTitleColor="@color/color_gray_dark2"
+            app:toolbarTitleSize="@dimen/font_size_17"/>
+
+        <ImageView
+            android:id="@+id/iv_collection"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/iv_search"
+            android:padding="10dp"
+            android:src="@drawable/common_collection_selector"/>
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:padding="11dp"
+            android:src="@drawable/common_search_selector"/>
+    </RelativeLayout>
+
+    <!--<com.wanshare.common.widget.viewpager.ViewPagerIndicator-->
+        <!--android:id="@+id/tl_exchange"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="32dp"-->
+        <!--android:background="@color/color_white"-->
+        <!--app:indicatorColor="@color/color_main_light"-->
+        <!--app:indicatorHeight="2dp"-->
+        <!--app:indicatorWidth="30dp"-->
+        <!--app:nomalTextColor="@color/color_gray_dark"-->
+        <!--app:selectedTextColor="@color/color_main_light"-->
+        <!--app:tabTextSize="@dimen/font_size_15"/>-->
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tl_exchange"
+        app:tabSelectedTextColor="@color/color_main_light"
+        app:tabTextColor="@color/color_gray_dark"
+        app:tabIndicatorHeight="2dp"
+        app:tabIndicatorColor="@color/color_main_light"
+        app:tabTextAppearance="@style/TabExchange_TextStyle"
+        android:layout_width="match_parent"
+        app:tabMode="scrollable"
+        android:layout_height="32dp"/>
+
+    <include layout="@layout/common_h_line"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_exchange"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

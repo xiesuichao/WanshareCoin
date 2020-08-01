@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gray_light"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    tools:context=".view.AddWithdrawAddressActivity">
+
+    <EditText
+        android:id="@+id/et_title"
+        style="@style/et_singleLine_black15"
+        android:hint="@string/asset_withdraw_address_title"/>
+
+    <CheckBox
+        android:id="@+id/cb_select_address"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/color_white"
+        android:button="@null"
+        android:drawableRight="@drawable/common_assets_select_switch_selector"
+        android:paddingRight="10dp"
+        android:ellipsize="end"
+        android:paddingLeft="15dp"
+        android:singleLine="true"
+        android:text="@string/asset_please_select_coin"
+        android:textColor="@color/color_gray_dark1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/color_white">
+
+        <EditText
+            android:id="@+id/et_coin_address"
+            style="@style/et_singleLine_black15"
+            android:layout_width="0dp"
+            android:hint="@string/asset_withdraw_address"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_scan"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/common_asset_scan_selector"/>
+
+    </LinearLayout>
+
+</LinearLayout>

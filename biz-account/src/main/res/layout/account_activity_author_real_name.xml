@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scroll_author_real_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/tv_author_real_name_area"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:hint=""
+                    android:textSize="@dimen/font_size_15"
+                    android:gravity="bottom"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="95dp"
+                    android:background="@drawable/account_line_et_bg"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_size_15"
+                    android:textColor="@color/color_gray_dark2"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/account_author_company_area"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_height="50dp">
+
+                <EditText
+                    android:id="@+id/et_author_real_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:hint=""
+                    android:textSize="@dimen/font_size_15"
+                    android:gravity="bottom"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="95dp"
+                    android:background="@drawable/account_line_et_bg"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_size_15"
+                    android:textColor="@color/color_gray_dark2"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/account_author_name"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_author_real_name_type"
+                android:layout_width="match_parent"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/tv_author_real_name_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:hint=""
+                    android:gravity="bottom"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="95dp"
+                    android:text="@string/account_author_id_type_card"
+                    android:textSize="@dimen/font_size_15"
+                    android:background="@drawable/account_line_et_bg"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_size_15"
+                    android:textColor="@color/color_gray_dark2"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/account_author_id_type"/>
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="7dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/ic_my_assets_open"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_height="50dp">
+
+                <EditText
+                    android:id="@+id/et_author_real_name_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:hint=""
+                    android:textSize="@dimen/font_size_15"
+                    android:gravity="bottom"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="95dp"
+                    android:background="@drawable/account_line_et_bg"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_size_15"
+                    android:textColor="@color/color_gray_dark2"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/account_author_id_code"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_15"
+                android:textColor="@color/color_gray_dark2"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="23dp"
+                android:text="@string/account_author_id_upload"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="194dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/account_senior_auth_photo_bg">
+
+                    <ImageView
+                        android:id="@+id/iv_author_real_name_card_direct"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_zhengjian_bg" />
+
+                    <ImageView
+                        android:id="@+id/btn_author_real_name_direct"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/iv_zj_pz" />
+
+                    <TextView
+                        android:id="@+id/tv_author_real_name_direct_tips"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/btn_author_real_name_direct"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/account_author_face_img_tips"
+                        android:textColor="@color/color_green_light"
+                        android:textSize="@dimen/font_size_12" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/account_author_face_tx_tips"
+                        android:textColor="@color/gray_text_line"
+                        android:textSize="@dimen/font_size_12" />
+
+                    <TextView
+                        android:id="@+id/btn_author_real_name_direct_sample"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textColor="@color/color_red_light"
+                        android:text="@string/account_author_sample"
+                        android:textSize="@dimen/font_size_12"
+                        android:visibility="visible"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_gray_light1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="194dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/account_senior_auth_photo_bg">
+
+                    <ImageView
+                        android:id="@+id/iv_author_real_name_back"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_zhengjian_bg" />
+
+                    <ImageView
+                        android:id="@+id/btn_author_real_name_back"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/iv_zj_pz" />
+
+                    <TextView
+                        android:id="@+id/tv_author_real_name_back_tips"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btn_author_real_name_back"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/account_author_back_img_tips"
+                        android:textColor="@color/color_green_light"
+                        android:textSize="@dimen/font_size_12" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/account_author_back_tx_tips"
+                        android:textColor="@color/gray_text_line"
+                        android:textSize="@dimen/font_size_12" />
+
+                    <TextView
+                        android:id="@+id/btn_author_real_name_back_sample"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textColor="@color/color_red_light"
+                        android:text="@string/account_author_sample"
+                        android:textSize="@dimen/font_size_12"
+                        android:visibility="visible"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_gray_light1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="194dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/account_senior_auth_photo_bg">
+
+                    <ImageView
+                        android:id="@+id/iv_author_real_name_handheld_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_zhengjian_bg" />
+
+                    <ImageView
+                        android:id="@+id/btn_author_real_name_handheld"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/iv_zj_pz" />
+
+                    <TextView
+                        android:id="@+id/tv_author_real_name_handheld_tips"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btn_author_real_name_handheld"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/account_author_handheld_img_tips"
+                        android:textColor="@color/color_green_light"
+                        android:textSize="@dimen/font_size_12" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/account_author_handheld_tx_tips"
+                        android:textColor="@color/gray_text_line"
+                        android:textSize="@dimen/font_size_12" />
+
+                    <TextView
+                        android:id="@+id/btn_author_real_name_handheld_sample"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textColor="@color/color_red_light"
+                        android:text="@string/account_author_sample"
+                        android:textSize="@dimen/font_size_12"
+                        android:visibility="visible"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="25dp"
+                android:lineSpacingExtra="8dp"
+                android:text="@string/account_author_tips"
+                android:textColor="@color/gray_text_line"
+                android:textSize="@dimen/font_size_12" />
+
+            <Button
+                android:id="@+id/btn_author_info_confirm"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/account_author_confirm"
+                style="@style/btn_corner_blue_blue"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_author_real_name_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+        
+        <ImageView
+            android:id="@+id/iv_author_real_name_status"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="41dp"
+            android:background="@drawable/ic_shenghe"/>
+
+        <TextView
+            android:id="@+id/tv_author_real_name_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/account_author_loading"
+            android:textSize="@dimen/font_size_15"
+            android:textColor="@color/color_gray_dark2"/>
+
+        <TextView
+            android:id="@+id/tv_author_real_name_status_reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="15dp"
+            android:textSize="@dimen/font_size_15"
+            android:textColor="@color/color_gray_dark2"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/ll_author_real_name_status_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="65dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/account_author_name"
+                    android:textSize="@dimen/font_size_15"
+                    android:textColor="@color/color_gray_dark"/>
+
+                <TextView
+                    android:id="@+id/tv_author_real_name_status_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/account_author_name"
+                    android:textSize="@dimen/font_size_15"
+                    android:layout_marginLeft="68dp"
+                    android:textColor="@color/color_gray_dark2"/>
+
+            </LinearLayout>
+
+            <include layout="@layout/account_layout_line"
+                android:layout_marginTop="10dp"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="23dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/account_author_id_type"
+                    android:textSize="@dimen/font_size_15"
+                    android:textColor="@color/color_gray_dark"/>
+
+                <TextView
+                    android:id="@+id/tv_author_real_name_status_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/account_author_name"
+                    android:textSize="@dimen/font_size_15"
+                    android:layout_marginLeft="37dp"
+                    android:textColor="@color/color_gray_dark2"/>
+
+            </LinearLayout>
+
+            <include layout="@layout/account_layout_line"
+                android:layout_marginTop="10dp"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="23dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/account_author_id_code"
+                    android:textSize="@dimen/font_size_15"
+                    android:textColor="@color/color_gray_dark"/>
+
+                <TextView
+                    android:id="@+id/tv_author_real_name_status_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/account_author_name"
+                    android:textSize="@dimen/font_size_15"
+                    android:layout_marginLeft="37dp"
+                    android:textColor="@color/color_gray_dark2"/>
+
+            </LinearLayout>
+
+            <include layout="@layout/account_layout_line"
+                android:layout_marginTop="10dp"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"/>
+            
+        </LinearLayout>
+       
+        
+        <Button
+            android:id="@+id/btn_author_real_name_reset"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="80dp"
+            android:text="@string/account_author_reset_confirm"
+            style="@style/btn_corner_blue_blue"/>
+        
+    </LinearLayout>
+
+    
+</LinearLayout>

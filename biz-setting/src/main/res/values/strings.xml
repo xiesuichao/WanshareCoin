@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">biz-setting</string>
+    <string name="setting_online_service">在线客服</string>
+    <string name="setting_help">帮助</string>
+    <string name="setting_setting">设置</string>
+    <string name="setting_language">语言</string>
+    <string name="setting_valuation_mode">计价方式</string>
+    <string name="setting_about_us">关于我们</string>
+    <string name="setting_privacy_policy">《隐私政策》</string>
+    <string name="setting_service_protocal">《服务协议》</string>
+    <string name="setting_and">和</string>
+    <string name="setting_login_out">安全退出</string>
+    <string name="setting_messages_center">消息中心</string>
+    <string name="setting_system_messages">系统消息</string>
+    <string name="setting_my_messages">我的消息</string>
+    <string name="setting_android">Android</string>
+    <string name="setting_custom">来自Android端的客户UserId=</string>
+    <string name="setting_logout_success">退出成功=</string>
+</resources>

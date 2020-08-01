@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CommonLib</string>
+    <string name="common_values_by_24H">24H成交额</string>
+    
+    <string name="common_cancel">取消</string>
+    <string name="common_search">搜索</string>
+    <string name="common_trade_market">交易市场</string>
+    <string name="common_amout">交易额</string>
+    <string name="common_24h">/24h</string>
+
+    <string name="finish">完成</string>
+
+    <string name="common_download_progress">下载中</string>
+    <string name="common_download_continue">继续</string>
+    <string name="common_download_finish">下载完成</string>
+    <string name="common_download_find_version">发现新版本</string>
+    <string name="common_download_install">点击安装</string>
+</resources>

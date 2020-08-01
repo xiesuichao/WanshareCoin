@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="recharge_succeed">充币成功</string>
+    <string name="recharge_failed">充币失败</string>
+    <string name="confirming">确认中</string>
+    <string name="withdraw_succeed">提币成功</string>
+    <string name="withdraw_failed">提币失败</string>
+    <string name="withdraw_reviewing">审核中</string>
+    <string name="withdraw_audit_failed">未通过审核</string>
+    <string name="withdraw_cancel">已取消</string>
+    <string name="withdraw_wait_review">待审核</string>
+
+</resources>

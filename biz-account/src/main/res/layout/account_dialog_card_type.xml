@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/transparent">
+    
+    
+    <TextView
+        android:id="@+id/btn_card_type_id"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="@string/account_author_id_type_card"
+        android:textColor="@color/color_gray_dark2"
+        android:textSize="@dimen/font_size_15"
+        android:background="@drawable/common_type_bg_selector" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_gray_light1"/>
+
+    <TextView
+        android:id="@+id/btn_card_type_passport"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="@string/account_author_id_type_passport"
+        android:textColor="@color/color_gray_dark2"
+        android:textSize="@dimen/font_size_15"
+        android:background="@drawable/common_type_bg_selector"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:visibility="gone"
+        android:background="@color/color_gray_light1"/>
+
+    <TextView
+        android:id="@+id/btn_card_type_driver"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="@string/account_author_id_type_driver"
+        android:textColor="@color/color_gray_dark2"
+        android:textSize="@dimen/font_size_15"
+        android:visibility="gone"
+        android:background="@drawable/common_type_bg_selector"/>
+
+    <TextView
+        android:id="@+id/btn_card_type_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/account_cancel"
+        android:textSize="@dimen/font_size_15"
+        android:textColor="@color/color_gray_dark2"
+        android:background="@drawable/common_type_bg_selector"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+include ':app'
+include ':commonlib'
+include ':biz-account'
+include ':biz-exchange'
+include ':biz-project'
+include ':biz-favorite'
+include ':biz-market'
+include ':biz-asset'
+include ':biz-setting'
+

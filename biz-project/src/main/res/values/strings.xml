@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">biz-project</string>
+
+    <string name="project_publicity">项目公示</string>
+    <string name="project_composite_evaluation">综合评价</string>
+    <string name="project_time_update">更新时间</string>
+    <string name="project_exchange_volume">交易所数量</string>
+    <string name="project_exchange">交易所</string>
+    <string name="project_certification">认证机构</string>
+    <string name="project_input_project_name">输入项目名称</string>
+    <string name="project_rmb">人民币</string>
+    <string name="project_dollar">美元</string>
+    <string name="project_online_exchange">上线交易所</string>
+    <string name="project_market_value">市值</string>
+    <string name="project_introduction">项目介绍</string>
+    <string name="project_newsletter">项目快讯</string>
+    <string name="project_trade_amount">成交额</string>
+    <string name="project_issuance_volume">发行总量</string>
+    <string name="project_issuance_time">发行时间</string>
+    <string name="project_official_website">官方网站</string>
+    <string name="project_composite_info">综合信息</string>
+    <string name="project_year">年</string>
+    <string name="project_month">月</string>
+    <string name="project_day">日</string>
+    <string name="project_rmb_sign">¥</string>
+    <string name="project_usd_sign">$</string>
+    <string name="project_unit">个</string>
+    <string name="project_market_trade_volume">成交量：</string>
+    <string name="project_info">比特币（BitCoin）的概念最初由中本聪在2009年提出，根据中本聪的思路设计发布的开源软件以及建构其上的P2P网络。比特币是一种P2P形式的数字货币。点对点的传输意味着一个去中心化的支付系统。/n比特币（BitCoin）的概念最初由中本聪在2009年提出，根据中本聪的思路设计发布的开源软件以及建构其上的P2P网络。比特币是一种P2P形式的数字货币。点对点的传输意味着一个去中心化的支付系统。比特币（BitCoin）的概念最初由中本聪在2009年提出，根据中本聪的思路设计发布的开源软件以及建构其上的P2P网络。比特币是一种P2P形式的数字货币。点对点的传输意味着一个去中心化的支付系统。比特币（BitCoin）的概念最初由中本聪在2009年提出，根据中本聪的思路设计发布的开源软件以及建构其上的P2P网络。比特币是一种P2P形式的数字货币。点对点的传输意味着一个去中心化的支付系统。比特币（BitCoin）的概念最初由中本聪在2009年提出，根据中本聪的思路设计发布的开源软件以及建构其上的P2P网络。比特币是一种P2P形式的数字货币。点对点的传输意味着一个去中心化的支付系统。比特币（BitCoin）的概念最初由中本聪在2009年提出，根据中本聪的思路设计发布的开源软件以及建构其上的P2P网络。比特币是一种P2P形式的数字货币。点对点的传输意味着一个去中心化的支付系统。</string>
+
+
+</resources>

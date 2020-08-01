@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_gray_light1">
+    
+    <RelativeLayout
+        android:id="@+id/btn_author_info_personal"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/color_white">
+
+        <TextView
+            android:id="@+id/tv_author_info_personal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/font_size_15"
+            android:textColor="@color/color_gray_dark2"
+            android:text="@string/account_author_personal"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/iv_author_info_personal_status"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginRight="15dp"
+                android:visibility="gone"
+                android:background="@drawable/ic_succ"/>
+
+            <TextView
+                android:id="@+id/tv_author_info_personal_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_15"
+                android:textColor="@color/color_gray_light2"
+                android:text="@string/account_author_not"/>
+
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:layout_width="7dp"
+            android:layout_height="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/ic_zc_tz"/>
+
+
+    </RelativeLayout>
+
+    <include layout="@layout/account_layout_line" />
+
+    <RelativeLayout
+        android:id="@+id/btn_author_info_company"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/color_white">
+
+        <TextView
+            android:id="@+id/tv_author_info_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/font_size_15"
+            android:textColor="@color/color_gray_dark2"
+            android:text="@string/account_author_company"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/iv_author_info_company_status"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginRight="15dp"
+                android:visibility="gone"
+                android:background="@drawable/ic_succ"/>
+
+            <TextView
+                android:id="@+id/tv_author_info_company_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_15"
+                android:textColor="@color/color_gray_light2"
+                android:text="@string/account_author_not"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="7dp"
+            android:layout_height="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/ic_zc_tz"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

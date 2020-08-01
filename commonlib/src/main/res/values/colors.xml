@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/color_white</color>
+    <color name="colorPrimaryBlue">@color/color_white</color>
+    <color name="colorPrimaryDark">@color/color_white</color>
+    <color name="colorAccent">@color/color_main_light</color>
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_white2">#FFFFFF</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_gray_light">#f3f4f6</color>
+    <color name="color_gray_light1">#EEEEEE</color>
+    <color name="color_gray_light2">#caccd6</color>
+    <color name="color_gray_light3">#b5c0d0</color>
+    <color name="color_gray_light4">#A2AAB0</color>
+    <color name="color_gray_light5">#828EA2</color>
+    <color name="color_gray_dark">#808f9e</color>
+    <color name="color_gray_dark1">#65707c</color>
+    <color name="color_gray_dark2">#294058</color>
+    <color name="color_gray_dark2_no">#294058</color>
+    <color name="color_gray_dark3">#64f3f4f6</color>
+    <!--主色调-->
+    <color name="color_main_light">#E83430</color>
+    <color name="color_main_dark">#CE2B13</color>
+
+    <color name="color_blue_dark2">#6C92B8</color>
+    <color name="color_red_light">#FF5442</color>
+    <color name="color_red_dark">#ce2b13</color>
+    <color name="color_red_light_alpha_10">#1AFF5442</color>
+    <color name="color_green_light">#2BB8AB</color>
+    <color name="color_green_dark">#00A487</color>
+    <color name="color_green_light_alpha_10">#1A2BB8AB</color>
+    <color name="color_black_alpha_50">#80000000</color>
+    <color name="color_gray_alpha_60">#99F3F4F6</color>
+
+    <color name="color_yellow">#FFA800</color>
+    <color name="color_blue">#2668FF</color>
+    <color name="color_pink">#FF45A1</color>
+</resources>

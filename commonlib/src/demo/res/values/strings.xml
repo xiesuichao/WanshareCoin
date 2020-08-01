@@ -1,0 +1,14 @@
+<resources>
+    <string name="please_input_username">请输入用户名</string>
+    <string name="please_input_pwd">请输入密码</string>
+    <string name="pwd_length_eight_at_least">密码太短（若原密码小于8位，请您重置密码）</string>
+
+    <string name="phone_or_email">手机号或邮箱</string>
+    <string name="password">密码</string>
+
+    <string name="more">更多</string>
+
+    <string name="test">测试</string>
+    <string name="test_list_show">测试列表展示</string>
+    <string name="test_util_demo">工具类demo测试</string>
+</resources>

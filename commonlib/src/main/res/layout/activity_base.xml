@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:id="@+id/ll_basetitle_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:clipToPadding="true">
+
+        <RelativeLayout
+            android:id="@+id/rl_title_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.wanshare.wscomponent.toolbar.MyToolbar
+                android:id="@+id/my_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:toolbarBackgroundColor="@color/color_white"
+                app:toolbarTitleSize="@dimen/font_size_17"
+                app:toolbarRightBtnTextSize="@dimen/font_size_15"
+                app:toolbarRightBtnTextColor="@color/color_gray_dark2"
+                app:toolbarTitleColor="@color/color_gray_dark2" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/my_toolbar"
+                android:background="@color/color_gray_light" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

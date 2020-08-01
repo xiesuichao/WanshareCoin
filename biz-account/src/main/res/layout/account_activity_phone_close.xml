@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.wanshare.common.widget.CustomTabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        app:ctlHorizontalSpace="48"
+        app:ctlTextColor="@color/color_gray_dark"
+        app:ctlUnderlineColor="@color/color_main_light"
+        app:ctlUnderlineWidth="30" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="47dp">
+        <include
+            layout="@layout/account_layout_verification_code"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <EditText
+            android:id="@+id/et_phone_close_google_code"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:hint="@string/account_google_verify_code_new"
+            android:textSize="@dimen/font_size_14"
+            android:paddingLeft="9dp"
+            android:visibility="gone"
+            android:inputType="number"
+            android:background="@drawable/account_line_et_bg"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical">
+
+
+        <EditText
+            android:id="@+id/et_phone_close_sms_code"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:hint="@string/account_sms_verify_code"
+            android:textSize="@dimen/font_size_14"
+            android:paddingLeft="10dp"
+            android:inputType="number"
+            android:background="@drawable/account_line_et_bg"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/color_gray_light1" />
+
+            <Button
+                android:id="@+id/btn_phone_close_get_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account_get_code"
+                android:textSize="@dimen/font_size_14"
+                android:textColor="@drawable/account_btn_code_selector"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_phone_close_confirm"
+        style="@style/btn_corner_blue_blue"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/account_author_confirm" />
+
+</LinearLayout>

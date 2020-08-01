@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">biz-exchange</string>
+    <string name="exchange_everybody">人人交易所</string>
+    <string name="exchange_exchange_market">交易所/市场</string>
+    <string name="exchange_attention_amount">关注人数</string>
+    <string name="exchange_turnover">成交额</string>
+    <string name="exchange_hot_amount">热度</string>
+    <string name="exchange_cannot_get_exchange_info">未能获取交易所数据</string>
+    <string name="exchange_market">市场</string>
+    <string name="exchange_newest_price">最新价</string>
+    <string name="exchange_24h_price_limit">24H涨跌</string>
+    <string name="exchange_amount">量</string>
+    <string name="exchange_cannot_get_market_info">未获取到交易所信息</string>
+</resources>

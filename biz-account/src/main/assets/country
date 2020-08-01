@@ -1,0 +1,2285 @@
+[
+    {
+        "cn": "阿尔巴尼亚",
+        "en": "Albania",
+        "id": 65,
+        "key": "AL",
+        "no": "355",
+        "origin": "Shqipëri",
+        "pinyin": "AERBANIYA"
+    },
+    {
+        "cn": "阿尔及利亚",
+        "en": "Algeria",
+        "id": 65,
+        "key": "DZ",
+        "no": "213",
+        "origin": "Algeria",
+        "pinyin": "AERJILIYA"
+    },
+    {
+        "cn": "阿富汗",
+        "en": "Afghanistan",
+        "id": 65,
+        "key": "AF",
+        "no": "93",
+        "origin": "‫افغانستان‬‎",
+        "pinyin": "AFUHAN"
+    },
+    {
+        "cn": "阿根廷",
+        "en": "Argentina",
+        "id": 65,
+        "key": "AR",
+        "no": "54",
+        "origin": "Argentina",
+        "pinyin": "AGENTING"
+    },
+    {
+        "cn": "爱尔兰",
+        "en": "Ireland",
+        "id": 65,
+        "key": "IE",
+        "no": "353",
+        "origin": "Ireland",
+        "pinyin": "AIERLAN"
+    },
+    {
+        "cn": "埃及",
+        "en": "Egypt",
+        "id": 65,
+        "key": "EG",
+        "no": "20",
+        "origin": "‫مصر‬‎",
+        "pinyin": "AIJI"
+    },
+    {
+        "cn": "埃塞俄比亚",
+        "en": "Ethiopia",
+        "id": 65,
+        "key": "ET",
+        "no": "251",
+        "origin": "Ethiopia",
+        "pinyin": "AISAIEBIYA"
+    },
+    {
+        "cn": "爱沙尼亚",
+        "en": "Estonia",
+        "id": 65,
+        "key": "EE",
+        "no": "372",
+        "origin": "Eesti",
+        "pinyin": "AISHANIYA"
+    },
+    {
+        "cn": "阿拉伯联合酋长国",
+        "en": "United Arab Emirates",
+        "id": 65,
+        "key": "AE",
+        "no": "971",
+        "origin": "‫الإمارات العربية المتحدة‬‎",
+        "pinyin": "ALABOLIANHEQIUZHANGGUO"
+    },
+    {
+        "cn": "阿鲁巴",
+        "en": "Aruba",
+        "id": 65,
+        "key": "AW",
+        "no": "297",
+        "origin": "Aruba",
+        "pinyin": "ALUBA"
+    },
+    {
+        "cn": "阿曼",
+        "en": "Oman",
+        "id": 65,
+        "key": "OM",
+        "no": "968",
+        "origin": "‫عُمان‬‎",
+        "pinyin": "AMAN"
+    },
+    {
+        "cn": "安道尔",
+        "en": "Andorra",
+        "id": 65,
+        "key": "AD",
+        "no": "376",
+        "origin": "Andorra",
+        "pinyin": "ANDAOER"
+    },
+    {
+        "cn": "安哥拉",
+        "en": "Angola",
+        "id": 65,
+        "key": "AO",
+        "no": "244",
+        "origin": "Angola",
+        "pinyin": "ANGELA"
+    },
+    {
+        "cn": "安圭拉",
+        "en": "Anguilla",
+        "id": 65,
+        "key": "AI",
+        "no": "1264",
+        "origin": "Anguilla",
+        "pinyin": "ANGUILA"
+    },
+    {
+        "cn": "安提瓜和巴布达",
+        "en": "Antigua & Barbuda",
+        "id": 65,
+        "key": "AG",
+        "no": "1268",
+        "origin": "Antigua & Barbuda",
+        "pinyin": "ANTIGUAHEBABUDA"
+    },
+    {
+        "cn": "澳大利亚",
+        "en": "Australia",
+        "id": 65,
+        "key": "AU",
+        "no": "61",
+        "origin": "Australia",
+        "pinyin": "AODALIYA"
+    },
+    {
+        "cn": "奥地利",
+        "en": "Austria",
+        "id": 65,
+        "key": "AT",
+        "no": "43",
+        "origin": "Österreich",
+        "pinyin": "AODILI"
+    },
+    {
+        "cn": "奥兰群岛",
+        "en": "Åland Islands",
+        "id": 65,
+        "key": "AX",
+        "origin": "Åland",
+        "pinyin": "AOLANQUNDAO"
+    },
+    {
+        "cn": "澳门",
+        "en": "Macau",
+        "id": 65,
+        "key": "MO",
+        "no": "853",
+        "origin": "澳門",
+        "pinyin": "AOMEN"
+    },
+    {
+        "cn": "阿塞拜疆",
+        "en": "Azerbaijan",
+        "id": 65,
+        "key": "AZ",
+        "no": "994",
+        "origin": "Azərbaycan",
+        "pinyin": "ASAIBAIJIANG"
+    },
+    {
+        "cn": "阿森松岛",
+        "en": "Ascension Island",
+        "id": 65,
+        "key": "AC",
+        "no": "247",
+        "origin": "Ascension Island",
+        "pinyin": "ASENSONGDAO"
+    },
+    {
+        "cn": "巴巴多斯",
+        "en": "Barbados",
+        "id": 66,
+        "key": "BB",
+        "no": "1246",
+        "origin": "Barbados",
+        "pinyin": "BABADUOSI"
+    },
+    {
+        "cn": "巴布亚新几内亚",
+        "en": "Papua New Guinea",
+        "id": 66,
+        "key": "PG",
+        "no": "675",
+        "origin": "Papua New Guinea",
+        "pinyin": "BABUYAXINJINEIYA"
+    },
+    {
+        "cn": "巴哈马",
+        "en": "Bahamas",
+        "id": 66,
+        "key": "BS",
+        "no": "1242",
+        "origin": "Bahamas",
+        "pinyin": "BAHAMA"
+    },
+    {
+        "cn": "白俄罗斯",
+        "en": "Belarus",
+        "id": 66,
+        "key": "BY",
+        "no": "375",
+        "origin": "Беларусь",
+        "pinyin": "BAIELUOSI"
+    },
+    {
+        "cn": "百慕大",
+        "en": "Bermuda",
+        "id": 66,
+        "key": "BM",
+        "no": "1441",
+        "origin": "Bermuda",
+        "pinyin": "BAIMUDA"
+    },
+    {
+        "cn": "巴基斯坦",
+        "en": "Pakistan",
+        "id": 66,
+        "key": "PK",
+        "no": "92",
+        "origin": "‫پاکستان‬‎",
+        "pinyin": "BAJISITAN"
+    },
+    {
+        "cn": "巴拉圭",
+        "en": "Paraguay",
+        "id": 66,
+        "key": "PY",
+        "no": "595",
+        "origin": "Paraguay",
+        "pinyin": "BALAGUI"
+    },
+    {
+        "cn": "巴勒斯坦",
+        "en": "Palestine",
+        "id": 66,
+        "key": "PS",
+        "no": "970",
+        "origin": "‫فلسطين‬‎",
+        "pinyin": "BALESITAN"
+    },
+    {
+        "cn": "巴林",
+        "en": "Bahrain",
+        "id": 66,
+        "key": "BH",
+        "no": "973",
+        "origin": "‫البحرين‬‎",
+        "pinyin": "BALIN"
+    },
+    {
+        "cn": "巴拿马",
+        "en": "Panama",
+        "id": 66,
+        "key": "PA",
+        "no": "507",
+        "origin": "Panamá",
+        "pinyin": "BANAMA"
+    },
+    {
+        "cn": "保加利亚",
+        "en": "Bulgaria",
+        "id": 66,
+        "key": "BG",
+        "no": "359",
+        "origin": "България",
+        "pinyin": "BAOJIALIYA"
+    },
+    {
+        "cn": "巴西",
+        "en": "Brazil",
+        "id": 66,
+        "key": "BR",
+        "no": "55",
+        "origin": "Brasil",
+        "pinyin": "BAXI"
+    },
+    {
+        "cn": "北马里亚纳群岛",
+        "en": "Northern Mariana Islands",
+        "id": 66,
+        "key": "MP",
+        "no": "1",
+        "origin": "Northern Mariana Islands",
+        "pinyin": "BEIMALIYANAQUNDAO"
+    },
+    {
+        "cn": "贝宁",
+        "en": "Benin",
+        "id": 66,
+        "key": "BJ",
+        "no": "229",
+        "origin": "Bénin",
+        "pinyin": "BEINING"
+    },
+    {
+        "cn": "比利时",
+        "en": "Belgium",
+        "id": 66,
+        "key": "BE",
+        "no": "32",
+        "origin": "Belgium",
+        "pinyin": "BILISHI"
+    },
+    {
+        "cn": "冰岛",
+        "en": "Iceland",
+        "id": 66,
+        "key": "IS",
+        "no": "354",
+        "origin": "Ísland",
+        "pinyin": "BINGDAO"
+    },
+    {
+        "cn": "博茨瓦纳",
+        "en": "Botswana",
+        "id": 66,
+        "key": "BW",
+        "no": "267",
+        "origin": "Botswana",
+        "pinyin": "BOCIWANA"
+    },
+    {
+        "cn": "波多黎各",
+        "en": "Puerto Rico",
+        "id": 66,
+        "key": "PR",
+        "no": "1787",
+        "origin": "Puerto Rico",
+        "pinyin": "BODUOLIGE"
+    },
+    {
+        "cn": "波兰",
+        "en": "Poland",
+        "id": 66,
+        "key": "PL",
+        "no": "48",
+        "origin": "Polska",
+        "pinyin": "BOLAN"
+    },
+    {
+        "cn": "玻利维亚",
+        "en": "Bolivia",
+        "id": 66,
+        "key": "BO",
+        "no": "591",
+        "origin": "Bolivia",
+        "pinyin": "BOLIWEIYA"
+    },
+    {
+        "cn": "伯利兹",
+        "en": "Belize",
+        "id": 66,
+        "key": "BZ",
+        "no": "501",
+        "origin": "Belize",
+        "pinyin": "BOLIZI"
+    },
+    {
+        "cn": "波斯尼亚和黑塞哥维那",
+        "en": "Bosnia & Herzegovina",
+        "id": 66,
+        "key": "BA",
+        "no": "387",
+        "origin": "Bosna i Hercegovina",
+        "pinyin": "BOSINIYAHEHEISAIGEWEINEI"
+    },
+    {
+        "cn": "不丹",
+        "en": "Bhutan",
+        "id": 66,
+        "key": "BT",
+        "no": "975",
+        "origin": "འབྲུག",
+        "pinyin": "BUDAN"
+    },
+    {
+        "cn": "布基纳法索",
+        "en": "Burkina Faso",
+        "id": 66,
+        "key": "BF",
+        "no": "226",
+        "origin": "Burkina Faso",
+        "pinyin": "BUJINAFASUO"
+    },
+    {
+        "cn": "布隆迪",
+        "en": "Burundi",
+        "id": 66,
+        "key": "BI",
+        "no": "257",
+        "origin": "Uburundi",
+        "pinyin": "BULONGDI"
+    },
+    {
+        "cn": "布韦岛",
+        "en": "Bouvet Island",
+        "id": 66,
+        "key": "BV",
+        "origin": "Bouvet Island",
+        "pinyin": "BUWEIDAO"
+    },
+    {
+        "cn": "朝鲜",
+        "en": "North Korea",
+        "id": 67,
+        "key": "KP",
+        "no": "850",
+        "origin": "북한",
+        "pinyin": "CHAOXIAN"
+    },
+    {
+        "cn": "赤道几内亚",
+        "en": "Equatorial Guinea",
+        "id": 67,
+        "key": "GQ",
+        "no": "240",
+        "origin": "Guinea Ecuatorial",
+        "pinyin": "CHIDAOJINEIYA"
+    },
+    {
+        "cn": "丹麦",
+        "en": "Denmark",
+        "id": 68,
+        "key": "DK",
+        "no": "45",
+        "origin": "Danmark",
+        "pinyin": "DANMAI"
+    },
+    {
+        "cn": "德国",
+        "en": "Germany",
+        "id": 68,
+        "key": "DE",
+        "no": "49",
+        "origin": "Deutschland",
+        "pinyin": "DEGUO"
+    },
+    {
+        "cn": "迪戈加西亚岛",
+        "en": "Diego Garcia",
+        "id": 68,
+        "key": "DG",
+        "origin": "Diego Garcia",
+        "pinyin": "DIGEJIAXIYADAO"
+    },
+    {
+        "cn": "东帝汶",
+        "en": "Timor-Leste",
+        "id": 68,
+        "key": "TL",
+        "no": "670",
+        "origin": "Timor-Leste",
+        "pinyin": "DONGDIWEN"
+    },
+    {
+        "cn": "多哥",
+        "en": "Togo",
+        "id": 68,
+        "key": "TG",
+        "no": "228",
+        "origin": "Togo",
+        "pinyin": "DUOGE"
+    },
+    {
+        "cn": "多米尼加共和国",
+        "en": "Dominican Republic",
+        "id": 68,
+        "key": "DO",
+        "no": "1809",
+        "origin": "República Dominicana",
+        "pinyin": "DUOMINIJIAGONGHEGUO"
+    },
+    {
+        "cn": "多米尼克",
+        "en": "Dominica",
+        "id": 68,
+        "key": "DM",
+        "no": "1767",
+        "origin": "Dominica",
+        "pinyin": "DUOMINIKE"
+    },
+    {
+        "cn": "厄瓜多尔",
+        "en": "Ecuador",
+        "id": 69,
+        "key": "EC",
+        "no": "593",
+        "origin": "Ecuador",
+        "pinyin": "EGUADUOER"
+    },
+    {
+        "cn": "厄立特里亚",
+        "en": "Eritrea",
+        "id": 69,
+        "key": "ER",
+        "no": "291",
+        "origin": "ኤርትራ",
+        "pinyin": "ELITELIYA"
+    },
+    {
+        "cn": "俄罗斯",
+        "en": "Russia",
+        "id": 69,
+        "key": "RU",
+        "no": "7",
+        "origin": "Россия",
+        "pinyin": "ELUOSI"
+    },
+    {
+        "cn": "法国",
+        "en": "France",
+        "id": 70,
+        "key": "FR",
+        "no": "33",
+        "origin": "France",
+        "pinyin": "FAGUO"
+    },
+    {
+        "cn": "法罗群岛",
+        "en": "Faroe Islands",
+        "id": 70,
+        "key": "FO",
+        "no": "298",
+        "origin": "Føroyar",
+        "pinyin": "FALUOQUNDAO"
+    },
+    {
+        "cn": "梵蒂冈",
+        "en": "Vatican City",
+        "id": 70,
+        "key": "VA",
+        "no": "379",
+        "origin": "Città del Vaticano",
+        "pinyin": "FANDIGANG"
+    },
+    {
+        "cn": "法属波利尼西亚",
+        "en": "French Polynesia",
+        "id": 70,
+        "key": "PF",
+        "no": "689",
+        "origin": "Polynésie française",
+        "pinyin": "FASHUBOLINIXIYA"
+    },
+    {
+        "cn": "法属圭亚那",
+        "en": "French Guiana",
+        "id": 70,
+        "key": "GF",
+        "no": "594",
+        "origin": "Guyane française",
+        "pinyin": "FASHUGUIYANEI"
+    },
+    {
+        "cn": "法属南部领地",
+        "en": "French Southern Territories",
+        "id": 70,
+        "key": "TF",
+        "origin": "Terres australes françaises",
+        "pinyin": "FASHUNANBULINGDI"
+    },
+    {
+        "cn": "法属圣马丁",
+        "en": "St Martin",
+        "id": 70,
+        "key": "MF",
+        "no": "590",
+        "origin": "Saint-Martin",
+        "pinyin": "FASHUSHENGMADING"
+    },
+    {
+        "cn": "斐济",
+        "en": "Fiji",
+        "id": 70,
+        "key": "FJ",
+        "no": "679",
+        "origin": "Fiji",
+        "pinyin": "FEIJI"
+    },
+    {
+        "cn": "菲律宾",
+        "en": "Philippines",
+        "id": 70,
+        "key": "PH",
+        "no": "63",
+        "origin": "Philippines",
+        "pinyin": "FEILVBIN"
+    },
+    {
+        "cn": "芬兰",
+        "en": "Finland",
+        "id": 70,
+        "key": "FI",
+        "no": "358",
+        "origin": "Suomi",
+        "pinyin": "FENLAN"
+    },
+    {
+        "cn": "佛得角",
+        "en": "Cape Verde",
+        "id": 70,
+        "key": "CV",
+        "no": "238",
+        "origin": "Kabu Verdi",
+        "pinyin": "FODEJIAO"
+    },
+    {
+        "cn": "福克兰群岛（马尔维纳斯群岛）",
+        "en": "Falkland Islands",
+        "id": 70,
+        "key": "FK",
+        "no": "500",
+        "origin": "Falkland Islands (Islas Malvinas)",
+        "pinyin": "FUKELANQUNDAO（MAERWEINASIQUNDAO）"
+    },
+    {
+        "cn": "冈比亚",
+        "en": "Gambia",
+        "id": 71,
+        "key": "GM",
+        "no": "220",
+        "origin": "Gambia",
+        "pinyin": "GANGBIYA"
+    },
+    {
+        "cn": "刚果（布）",
+        "en": "Congo - Brazzaville",
+        "id": 71,
+        "key": "CG",
+        "no": "242",
+        "origin": "Congo-Brazzaville",
+        "pinyin": "GANGGUO（BU）"
+    },
+    {
+        "cn": "刚果（金）",
+        "en": "Congo - Kinshasa",
+        "id": 71,
+        "key": "CD",
+        "no": "243",
+        "origin": "Jamhuri ya Kidemokrasia ya Kongo",
+        "pinyin": "GANGGUO（JIN）"
+    },
+    {
+        "cn": "格陵兰",
+        "en": "Greenland",
+        "id": 71,
+        "key": "GL",
+        "no": "299",
+        "origin": "Kalaallit Nunaat",
+        "pinyin": "GELINGLAN"
+    },
+    {
+        "cn": "格林纳达",
+        "en": "Grenada",
+        "id": 71,
+        "key": "GD",
+        "no": "1473",
+        "origin": "Grenada",
+        "pinyin": "GELINNADA"
+    },
+    {
+        "cn": "格鲁吉亚",
+        "en": "Georgia",
+        "id": 71,
+        "key": "GE",
+        "no": "995",
+        "origin": "საქართველო",
+        "pinyin": "GELUJIYA"
+    },
+    {
+        "cn": "哥伦比亚",
+        "en": "Colombia",
+        "id": 71,
+        "key": "CO",
+        "no": "57",
+        "origin": "Colombia",
+        "pinyin": "GELUNBIYA"
+    },
+    {
+        "cn": "根西岛",
+        "en": "Guernsey",
+        "id": 71,
+        "key": "GG",
+        "origin": "Guernsey",
+        "pinyin": "GENXIDAO"
+    },
+    {
+        "cn": "哥斯达黎加",
+        "en": "Costa Rica",
+        "id": 71,
+        "key": "CR",
+        "no": "506",
+        "origin": "Costa Rica",
+        "pinyin": "GESIDALIJIA"
+    },
+    {
+        "cn": "瓜德罗普",
+        "en": "Guadeloupe",
+        "id": 71,
+        "key": "GP",
+        "no": "590",
+        "origin": "Guadeloupe",
+        "pinyin": "GUADELUOPU"
+    },
+    {
+        "cn": "关岛",
+        "en": "Guam",
+        "id": 71,
+        "key": "GU",
+        "no": "1671",
+        "origin": "Guam",
+        "pinyin": "GUANDAO"
+    },
+    {
+        "cn": "古巴",
+        "en": "Cuba",
+        "id": 71,
+        "key": "CU",
+        "no": "53",
+        "origin": "Cuba",
+        "pinyin": "GUBA"
+    },
+    {
+        "cn": "圭亚那",
+        "en": "Guyana",
+        "id": 71,
+        "key": "GY",
+        "no": "592",
+        "origin": "Guyana",
+        "pinyin": "GUIYANEI"
+    },
+    {
+        "cn": "海地",
+        "en": "Haiti",
+        "id": 72,
+        "key": "HT",
+        "no": "509",
+        "origin": "Haiti",
+        "pinyin": "HAIDI"
+    },
+    {
+        "cn": "韩国",
+        "en": "South Korea",
+        "id": 72,
+        "key": "KR",
+        "no": "82",
+        "origin": "대한민국",
+        "pinyin": "HANGUO"
+    },
+    {
+        "cn": "哈萨克斯坦",
+        "en": "Kazakhstan",
+        "id": 72,
+        "key": "KZ",
+        "no": "7",
+        "origin": "Казахстан",
+        "pinyin": "HASAKESITAN"
+    },
+    {
+        "cn": "赫德岛和麦克唐纳群岛",
+        "en": "Heard & McDonald Islands",
+        "id": 72,
+        "key": "HM",
+        "origin": "Heard & McDonald Islands",
+        "pinyin": "HEDEDAOHEMAIKETANGNAQUNDAO"
+    },
+    {
+        "cn": "黑山",
+        "en": "Montenegro",
+        "id": 72,
+        "key": "ME",
+        "no": "382",
+        "origin": "Crna Gora",
+        "pinyin": "HEISHAN"
+    },
+    {
+        "cn": "荷兰",
+        "en": "Netherlands",
+        "id": 72,
+        "key": "NL",
+        "no": "31",
+        "origin": "Nederland",
+        "pinyin": "HELAN"
+    },
+    {
+        "cn": "荷属加勒比区",
+        "en": "Caribbean Netherlands",
+        "id": 72,
+        "key": "BQ",
+        "no": "599",
+        "origin": "Caribbean Netherlands",
+        "pinyin": "HESHUJIALEBIQU"
+    },
+    {
+        "cn": "荷属圣马丁",
+        "en": "Sint Maarten",
+        "id": 72,
+        "key": "SX",
+        "no": "1721",
+        "origin": "Sint Maarten",
+        "pinyin": "HESHUSHENGMADING"
+    },
+    {
+        "cn": "洪都拉斯",
+        "en": "Honduras",
+        "id": 72,
+        "key": "HN",
+        "no": "504",
+        "origin": "Honduras",
+        "pinyin": "HONGDOULASI"
+    },
+    {
+        "cn": "加纳",
+        "en": "Ghana",
+        "id": 74,
+        "key": "GH",
+        "no": "233",
+        "origin": "Gaana",
+        "pinyin": "JIANA"
+    },
+    {
+        "cn": "加拿大",
+        "en": "Canada",
+        "id": 74,
+        "key": "CA",
+        "no": "1",
+        "origin": "Canada",
+        "pinyin": "JIANADA"
+    },
+    {
+        "cn": "加纳利群岛",
+        "en": "Canary Islands",
+        "id": 74,
+        "key": "IC",
+        "origin": "Canarias",
+        "pinyin": "JIANALIQUNDAO"
+    },
+    {
+        "cn": "柬埔寨",
+        "en": "Cambodia",
+        "id": 74,
+        "key": "KH",
+        "no": "855",
+        "origin": "កម្ពុជា",
+        "pinyin": "JIANPUZHAI"
+    },
+    {
+        "cn": "加蓬",
+        "en": "Gabon",
+        "id": 74,
+        "key": "GA",
+        "no": "241",
+        "origin": "Gabon",
+        "pinyin": "JIAPENG"
+    },
+    {
+        "cn": "吉布提",
+        "en": "Djibouti",
+        "id": 74,
+        "key": "DJ",
+        "no": "253",
+        "origin": "Djibouti",
+        "pinyin": "JIBUTI"
+    },
+    {
+        "cn": "捷克",
+        "en": "Czechia",
+        "id": 74,
+        "key": "CZ",
+        "no": "420",
+        "origin": "Česko",
+        "pinyin": "JIEKE"
+    },
+    {
+        "cn": "吉尔吉斯斯坦",
+        "en": "Kyrgyzstan",
+        "id": 74,
+        "key": "KG",
+        "no": "996",
+        "origin": "Кыргызстан",
+        "pinyin": "JIERJISISITAN"
+    },
+    {
+        "cn": "基里巴斯",
+        "en": "Kiribati",
+        "id": 74,
+        "key": "KI",
+        "no": "686",
+        "origin": "Kiribati",
+        "pinyin": "JILIBASI"
+    },
+    {
+        "cn": "津巴布韦",
+        "en": "Zimbabwe",
+        "id": 74,
+        "key": "ZW",
+        "no": "263",
+        "origin": "Zimbabwe",
+        "pinyin": "JINBABUWEI"
+    },
+    {
+        "cn": "几内亚",
+        "en": "Guinea",
+        "id": 74,
+        "key": "GN",
+        "no": "224",
+        "origin": "Guinée",
+        "pinyin": "JINEIYA"
+    },
+    {
+        "cn": "几内亚比绍",
+        "en": "Guinea-Bissau",
+        "id": 74,
+        "key": "GW",
+        "no": "245",
+        "origin": "Guiné-Bissau",
+        "pinyin": "JINEIYABISHAO"
+    },
+    {
+        "cn": "开曼群岛",
+        "en": "Cayman Islands",
+        "id": 75,
+        "key": "KY",
+        "no": "1345",
+        "origin": "Cayman Islands",
+        "pinyin": "KAIMANQUNDAO"
+    },
+    {
+        "cn": "喀麦隆",
+        "en": "Cameroon",
+        "id": 75,
+        "key": "CM",
+        "no": "237",
+        "origin": "Cameroun",
+        "pinyin": "KAMAILONG"
+    },
+    {
+        "cn": "卡塔尔",
+        "en": "Qatar",
+        "id": 75,
+        "key": "QA",
+        "no": "974",
+        "origin": "‫قطر‬‎",
+        "pinyin": "KATAER"
+    },
+    {
+        "cn": "科科斯（基林）群岛",
+        "en": "Cocos (Keeling) Islands",
+        "id": 75,
+        "key": "CC",
+        "origin": "Kepulauan Cocos (Keeling)",
+        "pinyin": "KEKESI（JILIN）QUNDAO"
+    },
+    {
+        "cn": "克利珀顿岛",
+        "en": "Clipperton Island",
+        "id": 75,
+        "key": "CP",
+        "origin": "Clipperton Island",
+        "pinyin": "KELIPODUNDAO"
+    },
+    {
+        "cn": "克罗地亚",
+        "en": "Croatia",
+        "id": 75,
+        "key": "HR",
+        "no": "385",
+        "origin": "Hrvatska",
+        "pinyin": "KELUODIYA"
+    },
+    {
+        "cn": "科摩罗",
+        "en": "Comoros",
+        "id": 75,
+        "key": "KM",
+        "no": "269",
+        "origin": "‫جزر القمر‬‎",
+        "pinyin": "KEMOLUO"
+    },
+    {
+        "cn": "肯尼亚",
+        "en": "Kenya",
+        "id": 75,
+        "key": "KE",
+        "no": "254",
+        "origin": "Kenya",
+        "pinyin": "KENNIYA"
+    },
+    {
+        "cn": "科索沃",
+        "en": "Kosovo",
+        "id": 75,
+        "key": "XK",
+        "no": "383",
+        "origin": "Kosovë",
+        "pinyin": "KESUOWO"
+    },
+    {
+        "cn": "科特迪瓦",
+        "en": "Côte d’Ivoire",
+        "id": 75,
+        "key": "CI",
+        "no": "225",
+        "origin": "Côte d’Ivoire",
+        "pinyin": "KETEDIWA"
+    },
+    {
+        "cn": "科威特",
+        "en": "Kuwait",
+        "id": 75,
+        "key": "KW",
+        "no": "965",
+        "origin": "‫الكويت‬‎",
+        "pinyin": "KEWEITE"
+    },
+    {
+        "cn": "库克群岛",
+        "en": "Cook Islands",
+        "id": 75,
+        "key": "CK",
+        "no": "682",
+        "origin": "Cook Islands",
+        "pinyin": "KUKEQUNDAO"
+    },
+    {
+        "cn": "库拉索",
+        "en": "Curaçao",
+        "id": 75,
+        "key": "CW",
+        "no": "599",
+        "origin": "Curaçao",
+        "pinyin": "KULASUO"
+    },
+    {
+        "cn": "莱索托",
+        "en": "Lesotho",
+        "id": 76,
+        "key": "LS",
+        "no": "266",
+        "origin": "Lesotho",
+        "pinyin": "LAISUOTUO"
+    },
+    {
+        "cn": "老挝",
+        "en": "Laos",
+        "id": 76,
+        "key": "LA",
+        "no": "856",
+        "origin": "ລາວ",
+        "pinyin": "LAOWO"
+    },
+    {
+        "cn": "拉脱维亚",
+        "en": "Latvia",
+        "id": 76,
+        "key": "LV",
+        "no": "371",
+        "origin": "Latvija",
+        "pinyin": "LATUOWEIYA"
+    },
+    {
+        "cn": "黎巴嫩",
+        "en": "Lebanon",
+        "id": 76,
+        "key": "LB",
+        "no": "961",
+        "origin": "‫لبنان‬‎",
+        "pinyin": "LIBANEN"
+    },
+    {
+        "cn": "利比里亚",
+        "en": "Liberia",
+        "id": 76,
+        "key": "LR",
+        "no": "231",
+        "origin": "Liberia",
+        "pinyin": "LIBILIYA"
+    },
+    {
+        "cn": "利比亚",
+        "en": "Libya",
+        "id": 76,
+        "key": "LY",
+        "no": "218",
+        "origin": "‫ليبيا‬‎",
+        "pinyin": "LIBIYA"
+    },
+    {
+        "cn": "列支敦士登",
+        "en": "Liechtenstein",
+        "id": 76,
+        "key": "LI",
+        "no": "423",
+        "origin": "Liechtenstein",
+        "pinyin": "LIEZHIDUNSHIDENG"
+    },
+    {
+        "cn": "立陶宛",
+        "en": "Lithuania",
+        "id": 76,
+        "key": "LT",
+        "no": "370",
+        "origin": "Lietuva",
+        "pinyin": "LITAOWAN"
+    },
+    {
+        "cn": "留尼汪",
+        "en": "Réunion",
+        "id": 76,
+        "key": "RE",
+        "no": "262",
+        "origin": "La Réunion",
+        "pinyin": "LIUNIWANG"
+    },
+    {
+        "cn": "罗马尼亚",
+        "en": "Romania",
+        "id": 76,
+        "key": "RO",
+        "no": "40",
+        "origin": "România",
+        "pinyin": "LUOMANIYA"
+    },
+    {
+        "cn": "卢森堡",
+        "en": "Luxembourg",
+        "id": 76,
+        "key": "LU",
+        "no": "352",
+        "origin": "Luxembourg",
+        "pinyin": "LUSENBAO"
+    },
+    {
+        "cn": "卢旺达",
+        "en": "Rwanda",
+        "id": 76,
+        "key": "RW",
+        "no": "250",
+        "origin": "U Rwanda",
+        "pinyin": "LUWANGDA"
+    },
+    {
+        "cn": "马达加斯加",
+        "en": "Madagascar",
+        "id": 77,
+        "key": "MG",
+        "no": "261",
+        "origin": "Madagasikara",
+        "pinyin": "MADAJIASIJIA"
+    },
+    {
+        "cn": "马恩岛",
+        "en": "Isle of Man",
+        "id": 77,
+        "key": "IM",
+        "origin": "Isle of Man",
+        "pinyin": "MAENDAO"
+    },
+    {
+        "cn": "马尔代夫",
+        "en": "Maldives",
+        "id": 77,
+        "key": "MV",
+        "no": "960",
+        "origin": "Maldives",
+        "pinyin": "MAERDAIFU"
+    },
+    {
+        "cn": "马耳他",
+        "en": "Malta",
+        "id": 77,
+        "key": "MT",
+        "no": "356",
+        "origin": "Malta",
+        "pinyin": "MAERTA"
+    },
+    {
+        "cn": "马来西亚",
+        "en": "Malaysia",
+        "id": 77,
+        "key": "MY",
+        "no": "60",
+        "origin": "Malaysia",
+        "pinyin": "MALAIXIYA"
+    },
+    {
+        "cn": "马拉维",
+        "en": "Malawi",
+        "id": 77,
+        "key": "MW",
+        "no": "265",
+        "origin": "Malawi",
+        "pinyin": "MALAWEI"
+    },
+    {
+        "cn": "马里",
+        "en": "Mali",
+        "id": 77,
+        "key": "ML",
+        "no": "223",
+        "origin": "Mali",
+        "pinyin": "MALI"
+    },
+    {
+        "cn": "毛里求斯",
+        "en": "Mauritius",
+        "id": 77,
+        "key": "MU",
+        "no": "230",
+        "origin": "Moris",
+        "pinyin": "MAOLIQIUSI"
+    },
+    {
+        "cn": "毛里塔尼亚",
+        "en": "Mauritania",
+        "id": 77,
+        "key": "MR",
+        "no": "222",
+        "origin": "‫موريتانيا‬‎",
+        "pinyin": "MAOLITANIYA"
+    },
+    {
+        "cn": "马其顿（前南斯拉夫马其顿共和国）",
+        "en": "Macedonia (FYROM)",
+        "id": 77,
+        "key": "MK",
+        "no": "389",
+        "origin": "Република Македонија",
+        "pinyin": "MAQIDUN（QIANNANSILAFUMAQIDUNGONGHEGUO）"
+    },
+    {
+        "cn": "马绍尔群岛",
+        "en": "Marshall Islands",
+        "id": 77,
+        "key": "MH",
+        "no": "692",
+        "origin": "Marshall Islands",
+        "pinyin": "MASHAOERQUNDAO"
+    },
+    {
+        "cn": "马提尼克",
+        "en": "Martinique",
+        "id": 77,
+        "key": "MQ",
+        "no": "596",
+        "origin": "Martinique",
+        "pinyin": "MATINIKE"
+    },
+    {
+        "cn": "马约特",
+        "en": "Mayotte",
+        "id": 77,
+        "key": "YT",
+        "origin": "Mayotte",
+        "pinyin": "MAYUETE"
+    },
+    {
+        "cn": "美国",
+        "en": "United States",
+        "id": 77,
+        "key": "US",
+        "no": "1",
+        "origin": "United States",
+        "pinyin": "MEIGUO"
+    },
+    {
+        "cn": "美国本土外小岛屿",
+        "en": "US Outlying Islands",
+        "id": 77,
+        "key": "UM",
+        "origin": "U.S. Outlying Islands",
+        "pinyin": "MEIGUOBENTUWAIXIAODAOYU"
+    },
+    {
+        "cn": "美属萨摩亚",
+        "en": "American Samoa",
+        "id": 77,
+        "key": "AS",
+        "no": "1684",
+        "origin": "American Samoa",
+        "pinyin": "MEISHUSAMOYA"
+    },
+    {
+        "cn": "美属维尔京群岛",
+        "en": "US Virgin Islands",
+        "id": 77,
+        "key": "VI",
+        "no": "1340",
+        "origin": "U.S. Virgin Islands",
+        "pinyin": "MEISHUWEIERJINGQUNDAO"
+    },
+    {
+        "cn": "蒙古",
+        "en": "Mongolia",
+        "id": 77,
+        "key": "MN",
+        "no": "976",
+        "origin": "Монгол",
+        "pinyin": "MENGGU"
+    },
+    {
+        "cn": "孟加拉国",
+        "en": "Bangladesh",
+        "id": 77,
+        "key": "BD",
+        "no": "880",
+        "origin": "বাংলাদেশ",
+        "pinyin": "MENGJIALAGUO"
+    },
+    {
+        "cn": "蒙特塞拉特",
+        "en": "Montserrat",
+        "id": 77,
+        "key": "MS",
+        "no": "1664",
+        "origin": "Montserrat",
+        "pinyin": "MENGTESAILATE"
+    },
+    {
+        "cn": "缅甸",
+        "en": "Myanmar (Burma)",
+        "id": 77,
+        "key": "MM",
+        "no": "95",
+        "origin": "မြန်မာ",
+        "pinyin": "MIANDIAN"
+    },
+    {
+        "cn": "密克罗尼西亚",
+        "en": "Micronesia",
+        "id": 77,
+        "key": "FM",
+        "no": "691",
+        "origin": "Micronesia",
+        "pinyin": "MIKELUONIXIYA"
+    },
+    {
+        "cn": "秘鲁",
+        "en": "Peru",
+        "id": 77,
+        "key": "PE",
+        "no": "51",
+        "origin": "Perú",
+        "pinyin": "MILU"
+    },
+    {
+        "cn": "摩尔多瓦",
+        "en": "Moldova",
+        "id": 77,
+        "key": "MD",
+        "no": "373",
+        "origin": "Republica Moldova",
+        "pinyin": "MOERDUOWA"
+    },
+    {
+        "cn": "摩洛哥",
+        "en": "Morocco",
+        "id": 77,
+        "key": "MA",
+        "no": "212",
+        "origin": "Morocco",
+        "pinyin": "MOLUOGE"
+    },
+    {
+        "cn": "摩纳哥",
+        "en": "Monaco",
+        "id": 77,
+        "key": "MC",
+        "no": "377",
+        "origin": "Monaco",
+        "pinyin": "MONAGE"
+    },
+    {
+        "cn": "莫桑比克",
+        "en": "Mozambique",
+        "id": 77,
+        "key": "MZ",
+        "no": "258",
+        "origin": "Moçambique",
+        "pinyin": "MOSANGBIKE"
+    },
+    {
+        "cn": "墨西哥",
+        "en": "Mexico",
+        "id": 77,
+        "key": "MX",
+        "no": "52",
+        "origin": "México",
+        "pinyin": "MOXIGE"
+    },
+    {
+        "cn": "纳米比亚",
+        "en": "Namibia",
+        "id": 78,
+        "key": "NA",
+        "no": "264",
+        "origin": "Namibië",
+        "pinyin": "NAMIBIYA"
+    },
+    {
+        "cn": "南非",
+        "en": "South Africa",
+        "id": 78,
+        "key": "ZA",
+        "no": "27",
+        "origin": "South Africa",
+        "pinyin": "NANFEI"
+    },
+    {
+        "cn": "南极洲",
+        "en": "Antarctica",
+        "id": 78,
+        "key": "AQ",
+        "origin": "Antarctica",
+        "pinyin": "NANJIZHOU"
+    },
+    {
+        "cn": "南乔治亚和南桑威奇群岛",
+        "en": "South Georgia & South Sandwich Islands",
+        "id": 78,
+        "key": "GS",
+        "origin": "South Georgia & South Sandwich Islands",
+        "pinyin": "NANQIAOZHIYAHENANSANGWEIQIQUNDAO"
+    },
+    {
+        "cn": "南苏丹",
+        "en": "South Sudan",
+        "id": 78,
+        "key": "SS",
+        "no": "211",
+        "origin": "‫جنوب السودان‬‎",
+        "pinyin": "NANSUDAN"
+    },
+    {
+        "cn": "瑙鲁",
+        "en": "Nauru",
+        "id": 78,
+        "key": "NR",
+        "no": "674",
+        "origin": "Nauru",
+        "pinyin": "NAOLU"
+    },
+    {
+        "cn": "尼泊尔",
+        "en": "Nepal",
+        "id": 78,
+        "key": "NP",
+        "no": "977",
+        "origin": "नेपाल",
+        "pinyin": "NIBOER"
+    },
+    {
+        "cn": "尼加拉瓜",
+        "en": "Nicaragua",
+        "id": 78,
+        "key": "NI",
+        "no": "505",
+        "origin": "Nicaragua",
+        "pinyin": "NIJIALAGUA"
+    },
+    {
+        "cn": "尼日尔",
+        "en": "Niger",
+        "id": 78,
+        "key": "NE",
+        "no": "227",
+        "origin": "Nijar",
+        "pinyin": "NIRIER"
+    },
+    {
+        "cn": "尼日利亚",
+        "en": "Nigeria",
+        "id": 78,
+        "key": "NG",
+        "no": "234",
+        "origin": "Nigeria",
+        "pinyin": "NIRILIYA"
+    },
+    {
+        "cn": "纽埃",
+        "en": "Niue",
+        "id": 78,
+        "key": "NU",
+        "no": "683",
+        "origin": "Niue",
+        "pinyin": "NIUAI"
+    },
+    {
+        "cn": "诺福克岛",
+        "en": "Norfolk Island",
+        "id": 78,
+        "key": "NF",
+        "no": "672",
+        "origin": "Norfolk Island",
+        "pinyin": "NUOFUKEDAO"
+    },
+    {
+        "cn": "挪威",
+        "en": "Norway",
+        "id": 78,
+        "key": "NO",
+        "no": "47",
+        "origin": "Norge",
+        "pinyin": "NUOWEI"
+    },
+    {
+        "cn": "帕劳",
+        "en": "Palau",
+        "id": 80,
+        "key": "PW",
+        "no": "680",
+        "origin": "Palau",
+        "pinyin": "PALAO"
+    },
+    {
+        "cn": "皮特凯恩群岛",
+        "en": "Pitcairn Islands",
+        "id": 80,
+        "key": "PN",
+        "origin": "Pitcairn Islands",
+        "pinyin": "PITEKAIENQUNDAO"
+    },
+    {
+        "cn": "葡萄牙",
+        "en": "Portugal",
+        "id": 80,
+        "key": "PT",
+        "no": "351",
+        "origin": "Portugal",
+        "pinyin": "PUTAOYA"
+    },
+    {
+        "cn": "日本",
+        "en": "Japan",
+        "id": 82,
+        "key": "JP",
+        "no": "81",
+        "origin": "日本",
+        "pinyin": "RIBEN"
+    },
+    {
+        "cn": "瑞典",
+        "en": "Sweden",
+        "id": 82,
+        "key": "SE",
+        "no": "46",
+        "origin": "Sverige",
+        "pinyin": "RUIDIAN"
+    },
+    {
+        "cn": "瑞士",
+        "en": "Switzerland",
+        "id": 82,
+        "key": "CH",
+        "no": "41",
+        "origin": "Schweiz",
+        "pinyin": "RUISHI"
+    },
+    {
+        "cn": "萨尔瓦多",
+        "en": "El Salvador",
+        "id": 83,
+        "key": "SV",
+        "no": "503",
+        "origin": "El Salvador",
+        "pinyin": "SAERWADUO"
+    },
+    {
+        "cn": "塞尔维亚",
+        "en": "Serbia",
+        "id": 83,
+        "key": "RS",
+        "no": "381",
+        "origin": "Србија",
+        "pinyin": "SAIERWEIYA"
+    },
+    {
+        "cn": "塞拉利昂",
+        "en": "Sierra Leone",
+        "id": 83,
+        "key": "SL",
+        "no": "232",
+        "origin": "Sierra Leone",
+        "pinyin": "SAILALIANG"
+    },
+    {
+        "cn": "塞内加尔",
+        "en": "Senegal",
+        "id": 83,
+        "key": "SN",
+        "no": "221",
+        "origin": "Senegaal",
+        "pinyin": "SAINEIJIAER"
+    },
+    {
+        "cn": "塞浦路斯",
+        "en": "Cyprus",
+        "id": 83,
+        "key": "CY",
+        "no": "357",
+        "origin": "Κύπρος",
+        "pinyin": "SAIPULUSI"
+    },
+    {
+        "cn": "塞舌尔",
+        "en": "Seychelles",
+        "id": 83,
+        "key": "SC",
+        "no": "248",
+        "origin": "Seychelles",
+        "pinyin": "SAISHEER"
+    },
+    {
+        "cn": "萨摩亚",
+        "en": "Samoa",
+        "id": 83,
+        "key": "WS",
+        "no": "685",
+        "origin": "Samoa",
+        "pinyin": "SAMOYA"
+    },
+    {
+        "cn": "沙特阿拉伯",
+        "en": "Saudi Arabia",
+        "id": 83,
+        "key": "SA",
+        "no": "966",
+        "origin": "‫المملكة العربية السعودية‬‎",
+        "pinyin": "SHATEALABO"
+    },
+    {
+        "cn": "圣巴泰勒米",
+        "en": "St Barthélemy",
+        "id": 83,
+        "key": "BL",
+        "no": "590",
+        "origin": "Saint-Barthélemy",
+        "pinyin": "SHENGBATAILEMI"
+    },
+    {
+        "cn": "圣诞岛",
+        "en": "Christmas Island",
+        "id": 83,
+        "key": "CX",
+        "origin": "Christmas Island",
+        "pinyin": "SHENGDANDAO"
+    },
+    {
+        "cn": "圣多美和普林西比",
+        "en": "São Tomé & Príncipe",
+        "id": 83,
+        "key": "ST",
+        "no": "239",
+        "origin": "São Tomé e Príncipe",
+        "pinyin": "SHENGDUOMEIHEPULINXIBI"
+    },
+    {
+        "cn": "圣赫勒拿",
+        "en": "St Helena",
+        "id": 83,
+        "key": "SH",
+        "no": "290",
+        "origin": "St. Helena",
+        "pinyin": "SHENGHELENA"
+    },
+    {
+        "cn": "圣基茨和尼维斯",
+        "en": "St Kitts & Nevis",
+        "id": 83,
+        "key": "KN",
+        "no": "1869",
+        "origin": "St. Kitts & Nevis",
+        "pinyin": "SHENGJICIHENIWEISI"
+    },
+    {
+        "cn": "圣卢西亚",
+        "en": "St Lucia",
+        "id": 83,
+        "key": "LC",
+        "no": "1758",
+        "origin": "St. Lucia",
+        "pinyin": "SHENGLUXIYA"
+    },
+    {
+        "cn": "圣马力诺",
+        "en": "San Marino",
+        "id": 83,
+        "key": "SM",
+        "no": "378",
+        "origin": "San Marino",
+        "pinyin": "SHENGMALINUO"
+    },
+    {
+        "cn": "圣皮埃尔和密克隆群岛",
+        "en": "St Pierre & Miquelon",
+        "id": 83,
+        "key": "PM",
+        "no": "508",
+        "origin": "Saint-Pierre-et-Miquelon",
+        "pinyin": "SHENGPIAIERHEMIKELONGQUNDAO"
+    },
+    {
+        "cn": "圣文森特和格林纳丁斯",
+        "en": "St Vincent & Grenadines",
+        "id": 83,
+        "key": "VC",
+        "no": "1784",
+        "origin": "St. Vincent & Grenadines",
+        "pinyin": "SHENGWENSENTEHEGELINNADINGSI"
+    },
+    {
+        "cn": "斯里兰卡",
+        "en": "Sri Lanka",
+        "id": 83,
+        "key": "LK",
+        "no": "94",
+        "origin": "ශ්‍රී ලංකාව",
+        "pinyin": "SILILANKA"
+    },
+    {
+        "cn": "斯洛伐克",
+        "en": "Slovakia",
+        "id": 83,
+        "key": "SK",
+        "no": "421",
+        "origin": "Slovensko",
+        "pinyin": "SILUOFAKE"
+    },
+    {
+        "cn": "斯洛文尼亚",
+        "en": "Slovenia",
+        "id": 83,
+        "key": "SI",
+        "no": "386",
+        "origin": "Slovenija",
+        "pinyin": "SILUOWENNIYA"
+    },
+    {
+        "cn": "斯瓦尔巴和扬马延",
+        "en": "Svalbard & Jan Mayen",
+        "id": 83,
+        "key": "SJ",
+        "origin": "Svalbard og Jan Mayen",
+        "pinyin": "SIWAERBAHEYANGMAYAN"
+    },
+    {
+        "cn": "斯威士兰",
+        "en": "Swaziland",
+        "id": 83,
+        "key": "SZ",
+        "no": "268",
+        "origin": "Swaziland",
+        "pinyin": "SIWEISHILAN"
+    },
+    {
+        "cn": "苏丹",
+        "en": "Sudan",
+        "id": 83,
+        "key": "SD",
+        "no": "249",
+        "origin": "‫السودان‬‎",
+        "pinyin": "SUDAN"
+    },
+    {
+        "cn": "苏里南",
+        "en": "Suriname",
+        "id": 83,
+        "key": "SR",
+        "no": "597",
+        "origin": "Suriname",
+        "pinyin": "SULINAN"
+    },
+    {
+        "cn": "所罗门群岛",
+        "en": "Solomon Islands",
+        "id": 83,
+        "key": "SB",
+        "no": "677",
+        "origin": "Solomon Islands",
+        "pinyin": "SUOLUOMENQUNDAO"
+    },
+    {
+        "cn": "索马里",
+        "en": "Somalia",
+        "id": 83,
+        "key": "SO",
+        "no": "252",
+        "origin": "Soomaaliya",
+        "pinyin": "SUOMALI"
+    },
+    {
+        "cn": "泰国",
+        "en": "Thailand",
+        "id": 84,
+        "key": "TH",
+        "no": "66",
+        "origin": "ไทย",
+        "pinyin": "TAIGUO"
+    },
+    {
+        "cn": "台湾",
+        "en": "Taiwan",
+        "id": 84,
+        "key": "TW",
+        "no": "886",
+        "origin": "台灣",
+        "pinyin": "TAIWAN"
+    },
+    {
+        "cn": "塔吉克斯坦",
+        "en": "Tajikistan",
+        "id": 84,
+        "key": "TJ",
+        "no": "992",
+        "origin": "Тоҷикистон",
+        "pinyin": "TAJIKESITAN"
+    },
+    {
+        "cn": "汤加",
+        "en": "Tonga",
+        "id": 84,
+        "key": "TO",
+        "no": "676",
+        "origin": "Tonga",
+        "pinyin": "TANGJIA"
+    },
+    {
+        "cn": "坦桑尼亚",
+        "en": "Tanzania",
+        "id": 84,
+        "key": "TZ",
+        "no": "255",
+        "origin": "Tanzania",
+        "pinyin": "TANSANGNIYA"
+    },
+    {
+        "cn": "特克斯和凯科斯群岛",
+        "en": "Turks & Caicos Islands",
+        "id": 84,
+        "key": "TC",
+        "no": "1649",
+        "origin": "Turks & Caicos Islands",
+        "pinyin": "TEKESIHEKAIKESIQUNDAO"
+    },
+    {
+        "cn": "特立尼达和多巴哥",
+        "en": "Trinidad & Tobago",
+        "id": 84,
+        "key": "TT",
+        "no": "1868",
+        "origin": "Trinidad & Tobago",
+        "pinyin": "TELINIDAHEDUOBAGE"
+    },
+    {
+        "cn": "特里斯坦-达库尼亚群岛",
+        "en": "Tristan da Cunha",
+        "id": 84,
+        "key": "TA",
+        "origin": "Tristan da Cunha",
+        "pinyin": "TELISITAN-DAKUNIYAQUNDAO"
+    },
+    {
+        "cn": "土耳其",
+        "en": "Turkey",
+        "id": 84,
+        "key": "TR",
+        "no": "90",
+        "origin": "Türkiye",
+        "pinyin": "TUERQI"
+    },
+    {
+        "cn": "土库曼斯坦",
+        "en": "Turkmenistan",
+        "id": 84,
+        "key": "TM",
+        "no": "993",
+        "origin": "Turkmenistan",
+        "pinyin": "TUKUMANSITAN"
+    },
+    {
+        "cn": "突尼斯",
+        "en": "Tunisia",
+        "id": 84,
+        "key": "TN",
+        "no": "216",
+        "origin": "Tunisia",
+        "pinyin": "TUNISI"
+    },
+    {
+        "cn": "托克劳",
+        "en": "Tokelau",
+        "id": 84,
+        "key": "TK",
+        "no": "690",
+        "origin": "Tokelau",
+        "pinyin": "TUOKELAO"
+    },
+    {
+        "cn": "图瓦卢",
+        "en": "Tuvalu",
+        "id": 84,
+        "key": "TV",
+        "no": "688",
+        "origin": "Tuvalu",
+        "pinyin": "TUWALU"
+    },
+    {
+        "cn": "瓦利斯和富图纳",
+        "en": "Wallis & Futuna",
+        "id": 87,
+        "key": "WF",
+        "no": "681",
+        "origin": "Wallis & Futuna",
+        "pinyin": "WALISIHEFUTUNA"
+    },
+    {
+        "cn": "瓦努阿图",
+        "en": "Vanuatu",
+        "id": 87,
+        "key": "VU",
+        "no": "678",
+        "origin": "Vanuatu",
+        "pinyin": "WANUATU"
+    },
+    {
+        "cn": "危地马拉",
+        "en": "Guatemala",
+        "id": 87,
+        "key": "GT",
+        "no": "502",
+        "origin": "Guatemala",
+        "pinyin": "WEIDIMALA"
+    },
+    {
+        "cn": "委内瑞拉",
+        "en": "Venezuela",
+        "id": 87,
+        "key": "VE",
+        "no": "58",
+        "origin": "Venezuela",
+        "pinyin": "WEINEIRUILA"
+    },
+    {
+        "cn": "文莱",
+        "en": "Brunei",
+        "id": 87,
+        "key": "BN",
+        "no": "673",
+        "origin": "Brunei",
+        "pinyin": "WENLAI"
+    },
+    {
+        "cn": "乌干达",
+        "en": "Uganda",
+        "id": 87,
+        "key": "UG",
+        "no": "256",
+        "origin": "Uganda",
+        "pinyin": "WUGANDA"
+    },
+    {
+        "cn": "乌克兰",
+        "en": "Ukraine",
+        "id": 87,
+        "key": "UA",
+        "no": "380",
+        "origin": "Україна",
+        "pinyin": "WUKELAN"
+    },
+    {
+        "cn": "乌拉圭",
+        "en": "Uruguay",
+        "id": 87,
+        "key": "UY",
+        "no": "598",
+        "origin": "Uruguay",
+        "pinyin": "WULAGUI"
+    },
+    {
+        "cn": "乌兹别克斯坦",
+        "en": "Uzbekistan",
+        "id": 87,
+        "key": "UZ",
+        "no": "998",
+        "origin": "Oʻzbekiston",
+        "pinyin": "WUZIBIEKESITAN"
+    },
+    {
+        "cn": "香港",
+        "en": "Hong Kong",
+        "id": 88,
+        "key": "HK",
+        "no": "852",
+        "origin": "香港",
+        "pinyin": "XIANGGANG"
+    },
+    {
+        "cn": "西班牙",
+        "en": "Spain",
+        "id": 88,
+        "key": "ES",
+        "no": "34",
+        "origin": "España",
+        "pinyin": "XIBANYA"
+    },
+    {
+        "cn": "希腊",
+        "en": "Greece",
+        "id": 88,
+        "key": "GR",
+        "no": "30",
+        "origin": "Ελλάδα",
+        "pinyin": "XILA"
+    },
+    {
+        "cn": "新加坡",
+        "en": "Singapore",
+        "id": 88,
+        "key": "SG",
+        "no": "65",
+        "origin": "Singapore",
+        "pinyin": "XINJIAPO"
+    },
+    {
+        "cn": "新喀里多尼亚",
+        "en": "New Caledonia",
+        "id": 88,
+        "key": "NC",
+        "no": "687",
+        "origin": "Nouvelle-Calédonie",
+        "pinyin": "XINKALIDUONIYA"
+    },
+    {
+        "cn": "新西兰",
+        "en": "New Zealand",
+        "id": 88,
+        "key": "NZ",
+        "no": "64",
+        "origin": "New Zealand",
+        "pinyin": "XINXILAN"
+    },
+    {
+        "cn": "匈牙利",
+        "en": "Hungary",
+        "id": 88,
+        "key": "HU",
+        "no": "36",
+        "origin": "Magyarország",
+        "pinyin": "XIONGYALI"
+    },
+    {
+        "cn": "西撒哈拉",
+        "en": "Western Sahara",
+        "id": 88,
+        "key": "EH",
+        "origin": "‫الصحراء الغربية‬‎",
+        "pinyin": "XISAHALA"
+    },
+    {
+        "cn": "休达及梅利利亚",
+        "en": "Ceuta & Melilla",
+        "id": 88,
+        "key": "EA",
+        "origin": "Ceuta y Melilla",
+        "pinyin": "XIUDAJIMEILILIYA"
+    },
+    {
+        "cn": "叙利亚",
+        "en": "Syria",
+        "id": 88,
+        "key": "SY",
+        "no": "963",
+        "origin": "‫سوريا‬‎",
+        "pinyin": "XULIYA"
+    },
+    {
+        "cn": "牙买加",
+        "en": "Jamaica",
+        "id": 89,
+        "key": "JM",
+        "no": "1876",
+        "origin": "Jamaica",
+        "pinyin": "YAMAIJIA"
+    },
+    {
+        "cn": "亚美尼亚",
+        "en": "Armenia",
+        "id": 89,
+        "key": "AM",
+        "no": "374",
+        "origin": "Հայաստան",
+        "pinyin": "YAMEINIYA"
+    },
+    {
+        "cn": "也门",
+        "en": "Yemen",
+        "id": 89,
+        "key": "YE",
+        "no": "967",
+        "origin": "‫اليمن‬‎",
+        "pinyin": "YEMEN"
+    },
+    {
+        "cn": "意大利",
+        "en": "Italy",
+        "id": 89,
+        "key": "IT",
+        "no": "39",
+        "origin": "Italia",
+        "pinyin": "YIDALI"
+    },
+    {
+        "cn": "伊拉克",
+        "en": "Iraq",
+        "id": 89,
+        "key": "IQ",
+        "no": "964",
+        "origin": "‫العراق‬‎",
+        "pinyin": "YILAKE"
+    },
+    {
+        "cn": "伊朗",
+        "en": "Iran",
+        "id": 89,
+        "key": "IR",
+        "no": "98",
+        "origin": "‫ایران‬‎",
+        "pinyin": "YILANG"
+    },
+    {
+        "cn": "印度",
+        "en": "India",
+        "id": 89,
+        "key": "IN",
+        "no": "91",
+        "origin": "भारत",
+        "pinyin": "YINDU"
+    },
+    {
+        "cn": "印度尼西亚",
+        "en": "Indonesia",
+        "id": 89,
+        "key": "ID",
+        "no": "62",
+        "origin": "Indonesia",
+        "pinyin": "YINDUNIXIYA"
+    },
+    {
+        "cn": "英国",
+        "en": "United Kingdom",
+        "id": 89,
+        "key": "GB",
+        "no": "44",
+        "origin": "United Kingdom",
+        "pinyin": "YINGGUO"
+    },
+    {
+        "cn": "英属维尔京群岛",
+        "en": "British Virgin Islands",
+        "id": 89,
+        "key": "VG",
+        "no": "1284",
+        "origin": "British Virgin Islands",
+        "pinyin": "YINGSHUWEIERJINGQUNDAO"
+    },
+    {
+        "cn": "英属印度洋领地",
+        "en": "British Indian Ocean Territory",
+        "id": 89,
+        "key": "IO",
+        "no": "246",
+        "origin": "British Indian Ocean Territory",
+        "pinyin": "YINGSHUYINDUYANGLINGDI"
+    },
+    {
+        "cn": "以色列",
+        "en": "Israel",
+        "id": 89,
+        "key": "IL",
+        "no": "972",
+        "origin": "‫ישראל‬‎",
+        "pinyin": "YISELIE"
+    },
+    {
+        "cn": "约旦",
+        "en": "Jordan",
+        "id": 89,
+        "key": "JO",
+        "no": "962",
+        "origin": "‫الأردن‬‎",
+        "pinyin": "YUEDAN"
+    },
+    {
+        "cn": "越南",
+        "en": "Vietnam",
+        "id": 89,
+        "key": "VN",
+        "no": "84",
+        "origin": "Việt Nam",
+        "pinyin": "YUENAN"
+    },
+    {
+        "cn": "赞比亚",
+        "en": "Zambia",
+        "id": 90,
+        "key": "ZM",
+        "no": "260",
+        "origin": "Zambia",
+        "pinyin": "ZANBIYA"
+    },
+    {
+        "cn": "泽西岛",
+        "en": "Jersey",
+        "id": 90,
+        "key": "JE",
+        "origin": "Jersey",
+        "pinyin": "ZEXIDAO"
+    },
+    {
+        "cn": "乍得",
+        "en": "Chad",
+        "id": 90,
+        "key": "TD",
+        "no": "235",
+        "origin": "Tchad",
+        "pinyin": "ZHADE"
+    },
+    {
+        "cn": "直布罗陀",
+        "en": "Gibraltar",
+        "id": 90,
+        "key": "GI",
+        "no": "350",
+        "origin": "Gibraltar",
+        "pinyin": "ZHIBULUOTUO"
+    },
+    {
+        "cn": "智利",
+        "en": "Chile",
+        "id": 90,
+        "key": "CL",
+        "no": "56",
+        "origin": "Chile",
+        "pinyin": "ZHILI"
+    },
+    {
+        "cn": "中非共和国",
+        "en": "Central African Republic",
+        "id": 90,
+        "key": "CF",
+        "no": "236",
+        "origin": "République centrafricaine",
+        "pinyin": "ZHONGFEIGONGHEGUO"
+    },
+    {
+        "cn": "中国大陆",
+        "en": "China",
+        "id": 90,
+        "key": "CN",
+        "no": "86",
+        "origin": "中国大陆",
+        "pinyin": "ZHONGGUODALU"
+    }
+]

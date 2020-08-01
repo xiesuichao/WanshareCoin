@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_root_container"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/color_white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/font_size_15"
+                android:background="@drawable/ic_center_toux"/>
+
+            <FrameLayout
+                android:id="@+id/fl_app_fragment_minepage_please_sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/font_size_15"
+                    android:gravity="center_vertical"
+                    android:text="@string/app_mine_please_sign_in"
+                    android:textColor="@color/color_gray_dark2"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/font_size_10"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_app_fragment_minepage_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_gray_dark2"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/tv_app_fragment_minepage_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_gray_dark2"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|right">
+
+            <ImageView
+                android:id="@+id/iv_app_fragment_minepage_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/font_size_20"
+                android:background="@drawable/ic_center_hy"/>
+
+            <ImageView
+                android:id="@+id/iv_app_fragment_minepage_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/font_size_15"
+                android:background="@drawable/ic_center_xiaoxi"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/minepage_asset"/>
+
+    <include layout="@layout/minepage_more"/>
+
+</LinearLayout>

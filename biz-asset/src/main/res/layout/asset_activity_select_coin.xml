@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_white"
+        android:paddingBottom="11dp"
+        android:paddingLeft="15dp"
+        android:visibility="visible"
+        android:paddingRight="15dp"
+        android:paddingTop="11dp">
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/common_shape_gray_radius3"
+            android:drawableLeft="@drawable/ic_mkt_lookup"
+            android:drawablePadding="8dp"
+            android:textColor="@color/gray_text_line"
+            android:textSize="@dimen/font_size_14"
+            android:hint="@string/asset_currency_name"
+            android:singleLine="true"
+            android:paddingLeft="8dp"/>
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/et_search"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/ic_qingkon"
+            android:visibility="gone"
+            tools:visibility="visible"
+            />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_coin_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@color/color_white"/>
+</LinearLayout>

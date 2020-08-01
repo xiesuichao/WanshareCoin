@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.wanshare.wscomponent.chart.kline.WSKlineView
+        android:id="@+id/klineView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/view_kline_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <FrameLayout
+            android:id="@+id/fl_progress"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shape_progress_bar_bg">
+
+            <ProgressBar
+                android:id="@+id/pd_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminateDrawable="@drawable/ic_circle_progress"
+                android:indeterminateDuration="1000"
+                android:indeterminateOnly="true"
+                android:maxWidth="45dp"
+                android:maxHeight="45dp" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

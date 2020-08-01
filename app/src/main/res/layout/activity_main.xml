@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.weshare.wanxiang.main.view.MainActivity">
+
+    <com.wanshare.common.widget.viewpager.NoScrollViewPager
+        android:id="@+id/vp_pages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="48dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp"
+        android:background="@color/transparent">
+
+        <LinearLayout
+            android:id="@+id/ll_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_white"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_home_tab"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_home_tab"
+                    style="@style/app_tab_image_style"
+                    android:src="@drawable/app_selector_home_tab" />
+
+                <TextView
+                    android:id="@+id/tv_home_tab"
+                    style="@style/app_textview_tab_style"
+
+                    android:text="@string/app_home_page" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_favorite_tab"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_favorite_tab"
+                    style="@style/app_tab_image_style"
+                    android:src="@drawable/app_selector_favorite_tab" />
+
+                <TextView
+                    android:id="@+id/tv_favorite_tab"
+                    style="@style/app_textview_tab_style"
+
+                    android:text="@string/app_favorite" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_exchange_tab"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_entrust_tab"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_entrust_tab"
+                    style="@style/app_tab_image_style"
+                    android:src="@drawable/app_selector_entrust_tab" />
+
+                <TextView
+                    android:id="@+id/tv_entrust_tab"
+                    style="@style/app_textview_tab_style"
+
+                    android:text="@string/app_entrust" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_mine_tab"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_mine_tab"
+                    style="@style/app_tab_image_style"
+                    android:src="@drawable/app_selector_mine_tab" />
+
+                <TextView
+                    android:id="@+id/tv_mine_tab"
+                    style="@style/app_textview_tab_style"
+
+                    android:text="@string/app_mine" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@id/ll_tabs"
+            android:background="@color/color_gray_light1" />
+
+        <ImageView
+            android:id="@+id/iv_exchange_tab"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/app_selector_exchange_tab" />
+
+        <TextView
+            android:id="@+id/tv_exchange_tab"
+            style="@style/app_textview_tab_style"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="5dp"
+            android:text="@string/app_everyone_exchange" />
+
+    </RelativeLayout>
+</FrameLayout>

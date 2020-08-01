@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        style="@style/common_btn_ripple_bg">
+
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_trade_item_trade_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_12"
+                android:textColor="@color/color_green_light"
+                android:text="@string/market_trade_limit_price_buy" />
+
+            <TextView
+                android:id="@+id/tv_trade_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textSize="@dimen/font_size_12"
+                android:textColor="@color/color_gray_dark1"
+                android:text="4-29 12:32:50" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_trade_item_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="@dimen/font_size_12"
+                android:textColor="@color/color_gray_dark2"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="6546.63" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/color_gray_dark1"
+                android:textSize="@dimen/font_size_12"
+                android:text="" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_trade_item_deal_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_12"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/color_gray_dark2"
+                android:text="6546.63" />
+
+            <TextView
+                android:id="@+id/tv_trade_item_entrust_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/color_gray_dark1"
+                android:textSize="@dimen/font_size_12"
+                android:text="3245.23" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/btn_trade_item_order_cancel"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:gravity="center"
+            android:textSize="@dimen/font_size_12"
+            android:textColor="@color/color_main_light"
+            android:text="@string/market_trade_cancel" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_trade_item_bot_space"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="@color/color_gray_light"
+        android:visibility="gone" />
+
+</LinearLayout>

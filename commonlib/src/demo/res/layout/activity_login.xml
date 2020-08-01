@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.wanshare.common.mvpdemo.view.widget.ClearableEditText
+        android:layout_marginTop="48dp"
+        android:id="@+id/et_mine_login_username"
+        android:hint="@string/phone_or_email"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:text=""
+        android:layout_height="44dp"
+        />
+    <include layout="@layout/layout_gray_line"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginRight="30dp"/>
+    <com.wanshare.common.mvpdemo.view.widget.ClearableEditText
+        android:id="@+id/et_mine_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        app:eye_pwd="true"
+        />
+    <include layout="@layout/layout_gray_line"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginRight="30dp"/>
+    <Button
+        android:id="@+id/btn_mine_login"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:text="登录" />
+
+</LinearLayout>

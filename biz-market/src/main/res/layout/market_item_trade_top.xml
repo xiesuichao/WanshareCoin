@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@color/color_gray_dark1"
+                    android:text="@string/market_trade_price" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textSize="12sp"
+                    android:textColor="@color/color_gray_dark1"
+                    android:text="@string/market_trade_number" />
+
+            </RelativeLayout>
+
+            <com.wanshare.common.widget.NoScrollListView
+                android:id="@+id/nslv_trade_bar_chart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:divider="@null">
+
+            </com.wanshare.common.widget.NoScrollListView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fragment_trade_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_trade_left_buy_in"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/common_trade_buy_rb"
+                    android:textColor="@color/common_text_trade_buy_selector"
+                    android:text="@string/market_order_trade_buy"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:checked="true"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rb_trade_right_sell_out"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/common_trade_sell_rb"
+                    android:textColor="@color/common_text_trade_sell_selector"
+                    android:text="@string/market_order_trade_sell"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    />
+
+            </RadioGroup>
+
+            <RelativeLayout
+                android:id="@+id/rl_trade_price_type_select"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/common_corner_stroke_gray">
+
+                <TextView
+                    android:id="@+id/tv_trade_price_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/color_gray_dark2"
+                    android:textSize="@dimen/font_size_12"
+                    android:text="@string/market_trade_limit_order" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="11dp"
+                    android:src="@drawable/ic_my_assets_open"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/common_corner_stroke_gray">
+
+                <FrameLayout
+                    android:id="@+id/fl_trade_deal_price_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp">
+
+                    <EditText
+                        android:id="@+id/et_trade_deal_price_input"
+                        android:textColor="@color/color_gray_dark1"
+                        android:textSize="@dimen/font_size_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:hint="@string/market_trade_price"
+                        android:inputType="numberDecimal"
+                        android:maxLength="9"
+                        android:layout_gravity="center"
+                        android:textColorHint="@color/gray_text_line" />
+
+                </FrameLayout>
+
+
+                <ImageView
+                    android:id="@+id/iv_trade_price_minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/ic_mkt_reduce" />
+
+                <ImageView
+                    android:id="@+id/iv_trade_price_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/ic_mkt_plus" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_trade_syn_cny"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_12"
+                android:textColor="@color/color_gray_dark1"
+                android:text="- -"
+                android:layout_marginTop="6dp"/>
+
+            <FrameLayout
+                android:id="@+id/rl_trade_deal_amount_container"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@drawable/common_corner_stroke_gray"
+                android:layout_marginTop="16dp"
+                >
+
+                <EditText
+                    android:id="@+id/et_trade_amount_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/color_gray_dark1"
+                    android:hint="@string/market_trade_number"
+                    android:inputType="numberDecimal"
+                    android:textColorHint="@color/gray_text_line"
+                    android:maxLength="9"
+                    android:textSize="@dimen/font_size_12"
+                    android:background="@null"
+                    android:gravity="center"
+                    />
+
+            </FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:id="@+id/tv_trade_available_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_gray_dark1"
+                    android:textSize="@dimen/font_size_11"
+                    android:text="@string/market_trade_available" />
+
+                <TextView
+                    android:id="@+id/tv_trade_available_count_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textSize="@dimen/font_size_11"
+                    android:textColor="@color/color_gray_dark1"
+                    android:text="@string/market_trade_usdt" />
+
+                <TextView
+                    android:id="@+id/tv_trade_top_available_count"
+                    android:textSize="@dimen/font_size_11"
+                    android:textColor="@color/color_gray_dark2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/tv_trade_available_count_unit"
+                    android:layout_toRightOf="@+id/tv_trade_available_title"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:hint="- -"
+                    android:textColorHint="@color/gray_text_line" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_trade_first_percent"
+                    android:textSize="@dimen/font_size_12"
+                    android:textColor="@color/color_gray_dark1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/common_corner_stroke_gray"
+                    android:gravity="center"
+                    android:text="25%" />
+
+                <TextView
+                    android:id="@+id/tv_trade_second_percent"
+                    android:textSize="@dimen/font_size_12"
+                    android:textColor="@color/color_gray_dark1"
+                    android:background="@drawable/common_corner_stroke_gray"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="50%" />
+
+                <TextView
+                    android:id="@+id/tv_trade_third_percent"
+                    android:textSize="@dimen/font_size_12"
+                    android:textColor="@color/color_gray_dark1"
+                    android:background="@drawable/common_corner_stroke_gray"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="75%" />
+
+                <TextView
+                    android:id="@+id/tv_trade_forth_precent"
+                    android:textSize="@dimen/font_size_12"
+                    android:textColor="@color/color_gray_dark1"
+                    android:background="@drawable/common_corner_stroke_gray"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100%" />
+
+            </LinearLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:id="@+id/tv_item_trade_top_deal_amount_title"
+                    android:textColor="@color/color_gray_dark1"
+                    android:textSize="@dimen/font_size_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/market_trade_transaction_amount" />
+
+                <TextView
+                    android:id="@+id/tv_trade_deal_amount_unit"
+                    android:textColor="@color/color_gray_dark1"
+                    android:textSize="@dimen/font_size_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/market_trade_usdt" />
+
+                <TextView
+                    android:id="@+id/tv_trade_top_deal_amount"
+                    android:textSize="@dimen/font_size_11"
+                    android:textColor="@color/color_gray_dark2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/tv_trade_deal_amount_unit"
+                    android:layout_toRightOf="@+id/tv_item_trade_top_deal_amount_title"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:lines="1"
+                    android:text="" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_trade_bot_commit"
+                style="@style/common_btn_corner_green_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="21dp"
+                android:text="@string/market_trade_buy" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/color_gray_light" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/color_gray_dark1"
+            android:textSize="15sp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/market_order_current_title"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@color/color_gray_light">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:textSize="@dimen/font_size_11"
+            android:textColor="@color/color_gray_dark1"
+            android:text="@string/market_order_type" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/font_size_11"
+            android:textColor="@color/color_gray_dark1"
+            android:text="@string/market_trade_price" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="60dp"
+            android:textSize="@dimen/font_size_11"
+            android:textColor="@color/color_gray_dark1"
+            android:text="@string/market_order_valume" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/font_size_11"
+            android:layout_marginRight="16dp"
+            android:textColor="@color/color_gray_dark1"
+            android:text="@string/market_trade_operation" />
+
+    </RelativeLayout>
+
+</LinearLayout>
